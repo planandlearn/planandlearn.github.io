@@ -55,18 +55,22 @@ params:
     - name: "David Hsu"
       photo: "/img/DavidHsu.png"
       company: "National University of Singapore (NUS)"
+      href: "https://www.comp.nus.edu.sg/~dyhsu/"
 
     - name: "Leslie Kaelbling"
       photo: "/img/LeslieKaelbling.png"
       company: "Massachusetts Institute of Technology (MIT)"
+      href: "http://people.csail.mit.edu/lpk/"
 
     - name: "Siddhartha Srinivasa"
       photo: "/img/SiddharthaSrinivasa.png"
       company: "University of Washington (UW)"
+      href: "https://goodrobot.ai/"
 
     - name: "Aleksandra Faust"
       photo: "/img/AleksandraFaust.png"
       company: "Google Brain"
+      href: " https://www.afaust.info/"
 
   Schedules:
     - time: "07:50 - 08:00"
@@ -75,7 +79,6 @@ params:
       description: "Opening Remarks"
     - time: "08:00 - 10:00"
       participants:
-        - photo: "/img/PanpanCai.png"
         - photo: "/img/DavidHsu.png"
         - photo: "/img/LeslieKaelbling.png"
         - photo: "/img/SiddharthaSrinivasa.png"
@@ -83,11 +86,11 @@ params:
       description: "Invited Talks"
     - time: "10:00 - 11:30"
       participants:
-        - photo: "/img/PanpanCai.png"
         - photo: "/img/DavidHsu.png"
         - photo: "/img/LeslieKaelbling.png"
         - photo: "/img/SiddharthaSrinivasa.png"
         - photo: "/img/AleksandraFaust.png"
+        - photo: "/img/PanpanCai.png"
       description: "Moderated panel: \"Plan to learn or learn to plan, or both?\""
     - time: "11:30 - 12:00"
       participantstext: "All participants"
