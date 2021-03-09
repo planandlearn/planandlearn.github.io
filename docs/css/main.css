@@ -421,6 +421,7 @@ nav {
   position: absolute;
   top: 15px;
   left: 40px;
+  right: 0px;
   display: block;
   width: 90px;
   height: 90px;
@@ -450,7 +451,7 @@ nav {
   font-size: 1.4em;
 }
 /* =============================================================================
-   SCHEDULE
+   schedule
    ========================================================================== */
 .schedule-tbl {
   padding: 20px;
@@ -686,6 +687,8 @@ nav {
   .organizer-photo {
     width: 30px;
     height: 30px;
+    top: 5px;
+    left: 15px;
   }
   .speech-title {
     padding-top: 0;
@@ -931,6 +934,9 @@ nav {
 @media only screen and (max-width: 480px) {
   /* speakers */
   .speaker-photo .photo {
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.07);
+  }
+  .organizer-photo .photo {
     box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.07);
   }
   .speech-title {
