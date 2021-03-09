@@ -18,6 +18,9 @@
               <img class="photo" src="{{ .photo }}">
             </span>
             {{ end }}
+            {{ with .participantstext }}
+            {{ . }}
+            {{ end }}
 
             {{ .presentation.title }}
             <span class="speakers-company">{{ $slot.company }}</span>
