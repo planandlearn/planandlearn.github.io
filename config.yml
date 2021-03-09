@@ -11,11 +11,6 @@ params:
   Name: "Learning to Plan and Planning to Learn"
   Description: "Conference description"
   Date: "Date T.B.A"
-  #Price: "Only $100" # If your event is free, just comment this line
-  Venue: "Virtual"
-  Address: "Boulevard Kukulcan, 30"
-  City:  "Cancún"
-  State: "Quintana"
   Images: ["/img/badge.jpg"]
   GoogleMapsKey: "my-secret-maps-key"
 

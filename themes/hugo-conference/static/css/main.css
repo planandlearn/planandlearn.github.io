@@ -623,6 +623,7 @@ nav {
     font-size: 4em;
   }
   .tagline {
+    margin-top: 15px;
     margin-bottom: 15px;
     font-size: 1.4em;
   }
@@ -744,6 +745,9 @@ nav {
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: 100% auto;
+}
+.tagline {
+  margin-top: 15px;
 }
 .logo-link,
 .tagline,
