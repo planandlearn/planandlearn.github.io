@@ -23,8 +23,8 @@
 <body>
   <div class="global">
 
-    {{ partial "nav.html" . }}
     {{ partial "header.html" .Site.Params }}
+    {{ partial "nav.html" . }}
 
     <div class="content" id="content">
       <div class="wrapper">
@@ -52,5 +52,6 @@
   {{ end }}
   {{ template "_internal/google_analytics_async.html" . }}
   <script src="/js/particle.js"></script>
+  <script src="/js/navbar.js"></script>
 </body>
 </html>
