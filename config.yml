@@ -50,37 +50,33 @@ params:
   Schedule:
     - name: "David Hsu"
       photo: "/img/DavidHsu.png"
-      bio: "Learning for planning under uncertainty. Close-loop planning and learning; Differentiable planning algorithms."
       company: "National University of Singapore (NUS)"
-      link:
-        href: "http://twitter.com/linus"
-        text: "@linus"
       presentation:
-        title: "Digging into a Linux Kernel"
+        title: "Placeholder title"
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
         time: "10h00"
 
     - name: "Leslie Kaelbling"
       photo: "/img/LeslieKaelbling.png"
-      bio: "Topic: Machine Learning; Task and Motion Planning; POMDP planning."
       company: "Massachusetts Institute of Technology (MIT)"
-      link:
-        href: "http://github.com/billy95"
-        text: "@billy95"
       presentation:
-        title: "Introducing Windows 12"
+        title: "Placeholder title"
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
         time: "11h00"
 
     - name: "Siddhartha Srinivasa"
       photo: "/img/SiddharthaSrinivasa.png"
-      bio: "End-to-end systems that integrate machine learning, perception, planning, and control in the real world; Adaptive motion planning; Active learning; Planning and learning under uncertainty."
       company: "University of Washington (UW)"
-      link:
-        href: "http://twitter.com/littlechuck"
-        text: "@littlechuck"
       presentation:
-        title: "How to kill a elephant with one finger"
+        title: "Placeholder title"
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+        time: "13h00"
+
+    - name: "Aleksandra Faust"
+      photo: "/img/AleksandraFaust.png"
+      company: "Google Brain"
+      presentation:
+        title: "Placeholder title"
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
         time: "13h00"
 
@@ -113,5 +109,5 @@ params:
     - name: "David Hsu"
       photo: "/img/DavidHsu.png"
       bio: "David Hsu is a Provost's Chair Professor in the Department of computer science, National University of Singapore (NUS). He received PhD in computer science from Stanford University. His recent research interests include robot planning and learning under uncertainty and human-robot collaboration."
-      company: "Natioanl University of Singapore (NUS)"
+      company: "National University of Singapore (NUS)"
       href: "https://www.comp.nus.edu.sg/~dyhsu/"
