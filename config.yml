@@ -54,42 +54,58 @@ params:
     text2: "In this workshop, we aim to bring together researchers in the planning and learning sub-domains, to discuss opportunities to integrate them — by planning to learn and learning to plan— and to incubate the next level of intelligence. Particularly, we will discuss what and how to learn for planning, what and how to plan for learning, as well as principled choices and combinations between these two."
     text3: "Some questions we would like to highlight:"
 
-  # The entire schedule
-  Schedule:
+  # Speakers
+  Speakers:
     - name: "David Hsu"
       photo: "/img/DavidHsu.png"
       company: "National University of Singapore (NUS)"
-      presentation:
-        title: "Placeholder title"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-        time: "10h00"
 
     - name: "Leslie Kaelbling"
       photo: "/img/LeslieKaelbling.png"
       company: "Massachusetts Institute of Technology (MIT)"
-      presentation:
-        title: "Placeholder title"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-        time: "11h00"
 
     - name: "Siddhartha Srinivasa"
       photo: "/img/SiddharthaSrinivasa.png"
       company: "University of Washington (UW)"
-      presentation:
-        title: "Placeholder title"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-        time: "13h00"
 
     - name: "Aleksandra Faust"
       photo: "/img/AleksandraFaust.png"
       company: "Google Brain"
-      presentation:
-        title: "Placeholder title"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-        time: "13h00"
+
+  Schedules:
+    - time: "07:50 - 08:00"
+      participants:
+        - photo: "/img/DavidHsu.png"
+        - photo: "/img/LeslieKaelbling.png"
+        - photo: "/img/SiddharthaSrinivasa.png"
+        - photo: "/img/AleksandraFaust.png"
+      description: "Opening Remarks"
+    - time: "08:00 - 10:00"
+      participants:
+        - photo: "/img/DavidHsu.png"
+        - photo: "/img/LeslieKaelbling.png"
+        - photo: "/img/SiddharthaSrinivasa.png"
+        - photo: "/img/AleksandraFaust.png"
+      description: "Invited Talks"
+    - time: "10:00 - 11:30"
+      participants:
+        - photo: "/img/DavidHsu.png"
+        - photo: "/img/LeslieKaelbling.png"
+        - photo: "/img/SiddharthaSrinivasa.png"
+        - photo: "/img/AleksandraFaust.png"
+      description: "Moderated panel: \"Plan to learn or learn to plan, or both?\""
+    - time: "11:30 - 12:00"
+      participants:
+        - photo: "/img/DavidHsu.png"
+        - photo: "/img/LeslieKaelbling.png"
+        - photo: "/img/SiddharthaSrinivasa.png"
+        - photo: "/img/AleksandraFaust.png"
+      description: "Organized open discussions on Zoom"
+    - time: "12:00 Onwards"
+      description: "Virtual social hangout at GatherTown"
+
 
   Organizers:
-
     - name: "Panpan Cai"
       photo: "/img/PanpanCai.png"
       bio: "Panpan CAI is a postdoctoral research fellow at the National University of Singapore, working with David Hsu on integrated planning and learning, planning under uncertainty, and their applications on autonomous driving in crowded environments. She received her Ph.D. with Cai Yiyu and Zheng Jianmin at Nanyang Technological University. Panpan’s vision is to develop robots that can combine reasoning and learning to seamlessly interact with large-scale, dynamic, and interactive environments and accomplish challenging tasks."
