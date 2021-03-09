@@ -388,6 +388,8 @@ nav {
 .overview {
   padding: 19px;
   margin: 0 -20px 0;
+  text-align: justify;
+  text-justify: inter-word;
 }
 .about-list-header{
   font-size: 1.6em;
@@ -929,4 +931,9 @@ nav {
   .github-link {
     display: none;
   }
+}
+
+ul.organizers {
+  text-align: justify;
+  text-justify: inter-word;
 }
