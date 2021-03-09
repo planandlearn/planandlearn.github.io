@@ -1,0 +1,127 @@
+baseurl: "https://planandlearn.net/"
+title: "Conference name"
+canonifyurls: true
+theme: "hugo-conference"
+
+GoogleAnalytics: ""
+
+params:
+  # Conference info
+  Name: "Learning to Plan and Planning to Learn"
+  Description: "Conference description"
+  Date: "Date T.B.A"
+  #Price: "Only $100" # If your event is free, just comment this line
+  Venue: "Virtual"
+  Address: "Boulevard Kukulcan, 30"
+  City:  "Cancún"
+  State: "Quintana"
+  Images: ["/img/badge.jpg"]
+  GoogleMapsKey: "my-secret-maps-key"
+
+  # Active sections on the website to deactivate comment out with '#'
+  # you can also change order here and it will reflect on page
+  Sections:
+    - about
+    - speakers
+    - schedule
+
+  # Titles which you can translate to other languages
+  Titles:
+    about: "About"
+    speakers: "Speakers"
+    schedule: "Schedule"
+    contact: "Contact"
+
+  # The Call To Action button at the header,
+  # If you don't want this, just remove the callToAction property.
+  CallToAction:
+    text: "Register now!"
+    link: "http://register.example.com"
+
+  About:
+    text1: "Planning and learning are two crucial capabilities of robots. While planning seeks to solve a task by synthesizing policies on the fly, learning seeks to obtain solutions from experiences provided by data. The two domains have independently advanced in the past decades and both achieved remarkable success on their most suitable tasks. There is a noticeable trend to combine these two capabilities. Impressive success has been demonstrated by AlphaZero and MuZero, showing that the integration of planning and learning can advance human-level intelligence. Particularly, there are two complementary directions: learning to plan and planning to learn. From the perspective of planning, there are important attempts seeking to learn sampling distributions, action abstractions, heuristics, and representations for planning. From the perspective of learning, there are prominent efforts to enable active and uncertainty-aware learning, and to incorporate existing models to augment learning and achieve sample-efficiency. However, what is missing is a systematic discussion on where and how these two strategies shall be best applied and how they can be seamlessly integrated."
+    text2: "In this workshop, we aim to bring together researchers in the planning and learning sub-domains, to discuss opportunities to integrate them — by planning to learn and learning to plan— and to incubate the next level of intelligence. Particularly, we will discuss what and how to learn for planning, what and how to plan for learning, as well as principled choices and combinations between these two."
+    text3: "Some questions we would like to highlight:"
+
+  # The entire schedule
+  Schedule:
+    - name: "Check-in / Breakfast"
+      time: "9h00"
+
+    - name: "David Hsu"
+      photo: "/img/speaker.jpg"
+      bio: "Learning for planning under uncertainty. Close-loop planning and learning; Differentiable planning algorithms."
+      company: "National University of Singapore (NUS)"
+      link:
+        href: "http://twitter.com/linus"
+        text: "@linus"
+      presentation:
+        title: "Digging into a Linux Kernel"
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+        time: "10h00"
+
+    - name: "Leslie Kaelbling"
+      photo: "/img/speaker.jpg"
+      bio: "Topic: Machine Learning; Task and Motion Planning; POMDP planning."
+      company: "Massachusetts Institute of Technology (MIT)"
+      link:
+        href: "http://github.com/billy95"
+        text: "@billy95"
+      presentation:
+        title: "Introducing Windows 12"
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+        time: "11h00"
+
+    - name: "Lunch"
+      time: "12h00"
+
+    - name: "Siddhartha Srinivasa"
+      photo: "/img/speaker.jpg"
+      bio: "End-to-end systems that integrate machine learning, perception, planning, and control in the real world; Adaptive motion planning; Active learning; Planning and learning under uncertainty."
+      company: "University of Washington (UW)"
+      link:
+        href: "http://twitter.com/littlechuck"
+        text: "@littlechuck"
+      presentation:
+        title: "How to kill a elephant with one finger"
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+        time: "13h00"
+
+    - name: "Steve Jobs"
+      photo: "/img/speaker.jpg"
+      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+      company: "Apple, Inc."
+      link:
+        href: "http://github.com/stevie"
+        text: "@stevie"
+      presentation:
+        title: "Presenting iPad"
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+        time: "14h00"
+
+    - name: "Coffee-break"
+      time: "15h00"
+
+    - name: "Mark Zuckerberg"
+      photo: "/img/speaker.jpg"
+      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+      company: "Facebook"
+      link:
+        href: "http://twitter.com/zuck"
+        text: "@zuck"
+      presentation:
+        title: "Revealing Facebook Secrets"
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+        time: "16h00"
+
+    - name: "Steve Wozniak"
+      photo: "/img/speaker.jpg"
+      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+      company: "Apple, Inc."
+      link:
+        href: "http://twitter.com/woz"
+        text: "@woz"
+      presentation:
+        title: "Why do I prefer Android over iPhone"
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+        time: "17h00"
