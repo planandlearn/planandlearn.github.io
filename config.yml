@@ -22,15 +22,23 @@ params:
   # Active sections on the website to deactivate comment out with '#'
   # you can also change order here and it will reflect on page
   Sections:
-    - about
+    - overview
     - speakers
+    - topics
+    - callforcontributions
+    - importantdates
+    - acceptedpapers
     - schedule
     - organizers
 
   # Titles which you can translate to other languages
   Titles:
-    about: "About"
+    overview: "Overview"
     speakers: "Speakers"
+    topics: "Discussion Topics"
+    callforcontributions: "Call for Contributions"
+    importantdates: "Important Dates"
+    acceptedpapers: "Accepted Papers"
     schedule: "Schedule"
     organizers: "Organizers"
     contact: "Contact"
@@ -38,8 +46,8 @@ params:
   # The Call To Action button at the header,
   # If you don't want this, just remove the callToAction property.
   CallToAction:
-    text: "Register now!"
-    link: "http://register.example.com"
+    text: "Submit a Contribution!"
+    link: "#callforcontributions"
 
   About:
     text1: "Planning and learning are two crucial capabilities of robots. While planning seeks to solve a task by synthesizing policies on the fly, learning seeks to obtain solutions from experiences provided by data. The two domains have independently advanced in the past decades and both achieved remarkable success on their most suitable tasks. There is a noticeable trend to combine these two capabilities. Impressive success has been demonstrated by AlphaZero and MuZero, showing that the integration of planning and learning can advance human-level intelligence. Particularly, there are two complementary directions: learning to plan and planning to learn. From the perspective of planning, there are important attempts seeking to learn sampling distributions, action abstractions, heuristics, and representations for planning. From the perspective of learning, there are prominent efforts to enable active and uncertainty-aware learning, and to incorporate existing models to augment learning and achieve sample-efficiency. However, what is missing is a systematic discussion on where and how these two strategies shall be best applied and how they can be seamlessly integrated."
@@ -102,7 +110,7 @@ params:
 
     - name: "Yiyuan Lee"
       photo: "/img/YiyuanLee.png"
-      bio: "T.B.A"
+      bio: "Yiyuan Lee is an undergraduate student at the National University of Singapore, advised by Prof. David Hsu. He will be joining Rice University as a graduate student to work with Prof. Lydia Kavraki and Prof. Kaiyu Hang. His current interests lie in using learning to improve model-based planning for robotics tasks, particularly planning under uncertainty. Previously, he has also worked on systems for autonomous driving, including a real-world autonomous scooter as well as a simulator platform for autonomous driving in crowded environments."
       company: "National University of Singapore (NUS)"
       href: "https://leeyiyuan.info/"
 
