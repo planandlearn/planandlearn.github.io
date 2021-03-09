@@ -132,6 +132,6 @@ params:
 
     - name: "David Hsu"
       photo: "/img/DavidHsu.png"
-      bio: "David Hsu is a Provost's Chair Professor in the Department of computer science, National University of Singapore (NUS). He received PhD in computer science from Stanford University. His recent research interests include robot planning and learning under uncertainty and human-robot collaboration."
+      bio: "David Hsu is a Provost's Chair Professor in the Department of computer science, National University of Singapore (NUS). He received Ph.D. in computer science from Stanford University. At NUS, he co-founded NUS Advanced Robotics Center in 2013 and founded the NUS AI Laboratory (NUSAIL) in the School of Computing in 2019. He held visiting positions in MIT Aeronautics & Astronautics Department and CMU Robotics Institue. He is an IEEE Fellow. His research interests span robotics, AI, and computational structural biology. In recent years, he has been working on robot planning and learning under uncertainty and human-robot collaboration."
       company: "National University of Singapore (NUS)"
       href: "https://www.comp.nus.edu.sg/~dyhsu/"
