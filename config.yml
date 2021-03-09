@@ -8,7 +8,7 @@ GoogleAnalytics: ""
 
 params:
   # Conference info
-  Name: "Learning to Plan and Planning to Learn"
+  Name: "RSS 2021 Workshop on Learning to Plan and Planning to Learn"
   Description: "Conference description"
   Date: "Date T.B.A"
   Images: ["/img/badge.jpg"]
@@ -90,12 +90,7 @@ params:
         - photo: "/img/AleksandraFaust.png"
       description: "Moderated panel: \"Plan to learn or learn to plan, or both?\""
     - time: "11:30 - 12:00"
-      participants:
-        - photo: "/img/PanpanCai.png"
-        - photo: "/img/DavidHsu.png"
-        - photo: "/img/LeslieKaelbling.png"
-        - photo: "/img/SiddharthaSrinivasa.png"
-        - photo: "/img/AleksandraFaust.png"
+      participantstext: "All participants"
       description: "Organized open discussions on Zoom"
     - time: "12:00 Onwards"
       participantstext: "All participants"

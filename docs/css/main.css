@@ -278,7 +278,6 @@ hr {
 .wrapper {
   margin: 0 auto;
   width: 960px;
-  position: relative;
 }
 .content {
   padding: 50px 0;
@@ -319,7 +318,6 @@ p {
    ========================================================================== */
 nav {
   padding: 15px 0;
-  position: fixed;
   width: 100%;
   z-index: 10;
 }
@@ -334,12 +332,21 @@ nav {
    HEADER
    ========================================================================== */
 .header {
-  padding: 100px 0 100px;
   text-align: center;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
-.logo-name {
+.title-1 {
+  margin-top: 0;
   margin-bottom: 0;
-  font-size: 10em;
+  font-size: 3em;
+  letter-spacing: -0.04em;
+}
+.title-2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 5em;
   letter-spacing: -0.04em;
 }
 .tagline {
@@ -615,6 +622,7 @@ nav {
   /* nav */
   nav {
     display: none;
+    position: fixed;
   }
   .header {
     padding: 20px 0;
@@ -726,6 +734,7 @@ h6 {
    ========================================================================== */
 nav {
   background: #2b2b2b;
+  position: fixed;
 }
 .nav-link {
   color: #e7e7e7;
@@ -739,17 +748,11 @@ nav {
 /* =============================================================================
    HEADER
    ========================================================================== */
-.header {
-  background-image: url('../img/cover.jpg');
-  background-color: #2b2b2b;
-  background-repeat: no-repeat;
-  background-position: center bottom;
-  background-size: 100% auto;
-}
 .tagline {
   margin-top: 15px;
 }
-.logo-link,
+.title-1,
+.title-2,
 .tagline,
 .call-action-area .price {
   color: #fff;
