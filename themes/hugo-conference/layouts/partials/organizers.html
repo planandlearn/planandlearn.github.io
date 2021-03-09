@@ -1,7 +1,7 @@
-<h2 class="section-title">{{ .titles.speakers }}</h2>
+<h2 class="section-title">{{ .titles.organizers }}</h2>
 
 <ul class="speakers-list">
-{{ range $speaker := (where .schedule "presentation" "ne" nil) }}
+{{ range $speaker := .organizers }}
   <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
     {{ with .photo }}
       <span class="speaker-photo">
@@ -10,7 +10,7 @@
     {{ end }}
 
     <h3 class="speech-title">
-      <span>{{ .name }}</span>
+      <span><a href={{ .href }} target="_blank">{{ .name }}</a></span>
     </h3>
 
     <h3 class="speakers-name">{{ .company }}
@@ -19,3 +19,4 @@
   </li>
 {{ end }}
 </ul>
+

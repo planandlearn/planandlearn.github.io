@@ -2,6 +2,7 @@ baseurl: "https://planandlearn.net/"
 title: "Conference name"
 canonifyurls: true
 theme: "hugo-conference"
+publishDir: "docs"
 
 GoogleAnalytics: ""
 
@@ -24,12 +25,14 @@ params:
     - about
     - speakers
     - schedule
+    - organizers
 
   # Titles which you can translate to other languages
   Titles:
     about: "About"
     speakers: "Speakers"
     schedule: "Schedule"
+    organizers: "Organizers"
     contact: "Contact"
 
   # The Call To Action button at the header,
@@ -45,11 +48,8 @@ params:
 
   # The entire schedule
   Schedule:
-    - name: "Check-in / Breakfast"
-      time: "9h00"
-
     - name: "David Hsu"
-      photo: "/img/speaker.jpg"
+      photo: "/img/DavidHsu.png"
       bio: "Learning for planning under uncertainty. Close-loop planning and learning; Differentiable planning algorithms."
       company: "National University of Singapore (NUS)"
       link:
@@ -61,7 +61,7 @@ params:
         time: "10h00"
 
     - name: "Leslie Kaelbling"
-      photo: "/img/speaker.jpg"
+      photo: "/img/LeslieKaelbling.png"
       bio: "Topic: Machine Learning; Task and Motion Planning; POMDP planning."
       company: "Massachusetts Institute of Technology (MIT)"
       link:
@@ -72,11 +72,8 @@ params:
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
         time: "11h00"
 
-    - name: "Lunch"
-      time: "12h00"
-
     - name: "Siddhartha Srinivasa"
-      photo: "/img/speaker.jpg"
+      photo: "/img/SiddharthaSrinivasa.png"
       bio: "End-to-end systems that integrate machine learning, perception, planning, and control in the real world; Adaptive motion planning; Active learning; Planning and learning under uncertainty."
       company: "University of Washington (UW)"
       link:
@@ -87,41 +84,34 @@ params:
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
         time: "13h00"
 
-    - name: "Steve Jobs"
-      photo: "/img/speaker.jpg"
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Apple, Inc."
-      link:
-        href: "http://github.com/stevie"
-        text: "@stevie"
-      presentation:
-        title: "Presenting iPad"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-        time: "14h00"
+  Organizers:
 
-    - name: "Coffee-break"
-      time: "15h00"
+    - name: "Panpan Cai"
+      photo: "/img/PanpanCai.png"
+      bio: "Panpan CAI is a postdoctoral research fellow at the National University of Singapore, working with David Hsu on integrated planning and learning, planning under uncertainty, and their applications on autonomous driving in crowded environments. She received her Ph.D. with Cai Yiyu and Zheng Jianmin at Nanyang Technological University. Panpan’s vision is to develop robots that can combine reasoning and learning to seamlessly interact with large-scale, dynamic, and interactive environments and accomplish challenging tasks."
+      company: "National University of Singapore (NUS)"
+      href: "https://cindycia.github.io/"
 
-    - name: "Mark Zuckerberg"
-      photo: "/img/speaker.jpg"
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Facebook"
-      link:
-        href: "http://twitter.com/zuck"
-        text: "@zuck"
-      presentation:
-        title: "Revealing Facebook Secrets"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-        time: "16h00"
+    - name: "Peter Karkus"
+      photo: "/img/PeterKarkus.png"
+      bio: "Peter Karkus is a PhD candidate at the National University of Singapore advised by Prof. David Hsu. He has previously spent time at MIT as a visiting researcher and at Google and DeepMind as a research intern. Peter's vision is to build human-level robot intelligence by combining structure and reasoning with learning. Peter's recent works are on neural networks that encode differentiable robot algorithms in order to learn partially observable planning, visual navigation, mapping and localization tasks. His work has been recognized by a number of awards, including a Fulbright scholarship, NUS research achievement awards, and best paper nominations."
+      company: "National University of Singapore (NUS)"
+      href: "http://karkus.tilda.ws/"
 
-    - name: "Steve Wozniak"
-      photo: "/img/speaker.jpg"
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Apple, Inc."
-      link:
-        href: "http://twitter.com/woz"
-        text: "@woz"
-      presentation:
-        title: "Why do I prefer Android over iPhone"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-        time: "17h00"
+    - name: "GilWoo Lee"
+      photo: "/img/GilWooLee.png"
+      bio: "T.B.A"
+      company: "University of Washington (UW)"
+      href: "https://gilwoolee.github.io/"
+
+    - name: "Yiyuan Lee"
+      photo: "/img/YiyuanLee.png"
+      bio: "T.B.A"
+      company: "National University of Singapore (NUS)"
+      href: "https://leeyiyuan.info/"
+
+    - name: "David Hsu"
+      photo: "/img/DavidHsu.png"
+      bio: "David Hsu is a Provost's Chair Professor in the Department of computer science, National University of Singapore (NUS). He received PhD in computer science from Stanford University. His recent research interests include robot planning and learning under uncertainty and human-robot collaboration."
+      company: "Natioanl University of Singapore (NUS)"
+      href: "https://www.comp.nus.edu.sg/~dyhsu/"
