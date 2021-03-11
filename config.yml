@@ -123,7 +123,7 @@ params:
       photo: "/img/YiyuanLee.png"
       bio: "Yiyuan Lee is an undergraduate researcher at the National University of Singapore, advised by Prof. David Hsu. He will be joining Rice University as a graduate student to work with Prof. Lydia Kavraki and Prof. Kaiyu Hang. His current interests lie in using learning to improve model-based planning for robotics tasks, particularly for planning under uncertainty. Previously, he has worked on systems for autonomous driving, including a real-world autonomous scooter as well as a simulator platform for autonomous driving in crowded environments."
       company: "National University of Singapore (NUS)"
-      href: "https://linkedin.com/in/yiyuan-lee-1406521aa"
+      href: "https://leeyiyuan.info"
 
     - name: "David Hsu"
       photo: "/img/DavidHsu.png"
