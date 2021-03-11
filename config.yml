@@ -116,7 +116,7 @@ params:
     - name: "GilWoo Lee"
       photo: "/img/GilWooLee.png"
       bio: "Gilwoo Lee is the founder CEO of Zordi, Inc., an agricultural startup focusing on controlled environment agriculture. Lee has received her Ph.D. degree from the University of Washington, where she was advised by Siddhartha S. Srinivasa. She has worked on Bayesian Reinforcement Learning, learning and planning under uncertainty, and human-robot interaction, with applications ranging from assistive robots to mobile racecars."
-      company: "University of Washington (UW)"
+      company: "Zordi, Inc."
       href: "http://leegilwoo.com/"
 
     - name: "Yiyuan Lee"
