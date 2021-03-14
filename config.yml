@@ -21,8 +21,6 @@ params:
     - speakers
     - topics
     - callforcontributions
-    - importantdates
-    - acceptedpapers
     - schedule
     - organizers
     - contact
@@ -31,10 +29,8 @@ params:
   Titles:
     overview: "Overview"
     speakers: "Speakers"
-    topics: "Discussion Topics"
-    callforcontributions: "Call for Contributions"
-    importantdates: "Important Dates"
-    acceptedpapers: "Accepted Papers"
+    topics: "Discussions"
+    callforcontributions: "Submissions"
     schedule: "Schedule"
     organizers: "Organizers"
     contact: "Contact"
@@ -44,11 +40,6 @@ params:
   CallToAction:
     text: "Submit a Contribution"
     link: "#callforcontributions"
-
-  About:
-    text1: "Planning and learning are two crucial capabilities of robots. While planning seeks to solve a task by synthesizing policies on the fly, learning seeks to obtain solutions from experiences provided by data. The two domains have independently advanced in the past decades and both achieved remarkable success on their most suitable tasks. There is a noticeable trend to combine these two capabilities. Impressive success has been demonstrated by AlphaZero and MuZero, showing that the integration of planning and learning can advance human-level intelligence. Particularly, there are two complementary directions: learning to plan and planning to learn. From the perspective of planning, there are important attempts seeking to learn sampling distributions, action abstractions, heuristics, and representations for planning. From the perspective of learning, there are prominent efforts to enable active and uncertainty-aware learning, and to incorporate existing models to augment learning and achieve sample-efficiency. However, what is missing is a systematic discussion on where and how these two strategies shall be best applied and how they can be seamlessly integrated."
-    text2: "In this workshop, we aim to bring together researchers in the planning and learning sub-domains, to discuss opportunities to integrate them — by planning to learn and learning to plan— and to incubate the next level of intelligence. Particularly, we will discuss what and how to learn for planning, what and how to plan for learning, as well as principled choices and combinations between these two."
-    text3: "Some questions we would like to highlight:"
 
   # Speakers
   Speakers:
@@ -73,31 +64,39 @@ params:
       href: " https://www.afaust.info/"
 
   Schedules:
-    - time: "07:50 - 08:00"
+    - time: "07:55 - 08:00"
       participants:
         - photo: "/img/PanpanCai.png"
       description: "Opening Remarks"
-    - time: "08:00 - 10:00"
-      participants:
-        - photo: "/img/DavidHsu.png"
-        - photo: "/img/LeslieKaelbling.png"
-        - photo: "/img/SiddharthaSrinivasa.png"
-        - photo: "/img/AleksandraFaust.png"
-      description: "Invited Talks"
-    - time: "10:00 - 11:30"
+
+    - time: "08:00 - 09:20"
       participants:
         - photo: "/img/DavidHsu.png"
         - photo: "/img/LeslieKaelbling.png"
         - photo: "/img/SiddharthaSrinivasa.png"
         - photo: "/img/AleksandraFaust.png"
         - photo: "/img/PanpanCai.png"
-      description: "Moderated panel: \"Plan to learn or learn to plan, or both?\""
-    - time: "11:30 - 12:00"
+      description: "Moderated panel: \"LPPL: what, where, and how?\""
+
+    - time: "09:20 - 09:50"
+      participantstext: "Accepted abstracts"
+      description: "Contributed spotlight talks (2-mins each)"
+
+    - time: "09:50 - 11:10"
+      participants:
+        - photo: "/img/DavidHsu.png"
+        - photo: "/img/LeslieKaelbling.png"
+        - photo: "/img/SiddharthaSrinivasa.png"
+        - photo: "/img/AleksandraFaust.png"
+        - photo: "/img/PanpanCai.png"
+      description: "Moderated panel: \"LPPL: retrospects and prospects.\""
+    - time: "11:10 - 12:10"
       participantstext: "All participants"
-      description: "Organized open discussions on Zoom"
-    - time: "12:00 Onwards"
+      description: "Virtual poster sessions at Gather.town"
+
+    - time: "12:10 Onwards"
       participantstext: "All participants"
-      description: "Virtual social hangout at GatherTown"
+      description: "Virtual coffee time at Gather.town"
 
 
   Organizers:
