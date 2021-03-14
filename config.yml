@@ -72,9 +72,7 @@ params:
     - time: "08:00 - 09:20"
       participants:
         - photo: "/img/DavidHsu.png"
-        - photo: "/img/LeslieKaelbling.png"
         - photo: "/img/SiddharthaSrinivasa.png"
-        - photo: "/img/AleksandraFaust.png"
         - photo: "/img/PanpanCai.png"
       description: "Moderated panel: \"LPPL: what, where, and how?\""
 
@@ -84,11 +82,9 @@ params:
 
     - time: "09:50 - 11:10"
       participants:
-        - photo: "/img/DavidHsu.png"
         - photo: "/img/LeslieKaelbling.png"
-        - photo: "/img/SiddharthaSrinivasa.png"
         - photo: "/img/AleksandraFaust.png"
-        - photo: "/img/PanpanCai.png"
+        - photo: "/img/PeterKarkus.png"
       description: "Moderated panel: \"LPPL: retrospects and prospects.\""
     - time: "11:10 - 12:10"
       participantstext: "All participants"
