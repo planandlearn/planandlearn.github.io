@@ -56,12 +56,28 @@ params:
     - name: "Siddhartha Srinivasa"
       photo: "/img/SiddharthaSrinivasa.png"
       company: "University of Washington (UW)"
+
+    - name: "Nicholas Roy"
+      photo: "/img/NicholasRoy.png"
+      company: "Massachusetts Institute of Technology (MIT)"
+      href: "https://aeroastro.mit.edu/faculty-research/faculty-list/nicholas-roy"
       href: "https://goodrobot.ai/"
+
+    - name: "Alberto Rodriguez"
+      photo: "/img/AlbertoRodriguez.png"
+      company: "Massachusetts Institute of Technology (MIT)"
+      href: "http://meche.mit.edu/people/faculty/ALBERTOR@MIT.EDU"
+
+    - name: "Aviv Tamar"
+      photo: "/img/AvivTamar.png"
+      company: "Israel Institute for Technology"
+      href: "https://avivt.github.io/avivt/"
 
     - name: "Aleksandra Faust"
       photo: "/img/AleksandraFaust.png"
       company: "Google Brain"
       href: " https://www.afaust.info/"
+
 
   Schedules:
     - time: "07:55 - 08:00"
@@ -73,6 +89,8 @@ params:
       participants:
         - photo: "/img/DavidHsu.png"
         - photo: "/img/SiddharthaSrinivasa.png"
+        - photo: "/img/AvivTamar.png"
+        - photo: "/img/AleksandraFaust.png"
         - photo: "/img/PanpanCai.png"
       description: "Moderated panel: \"LPPL: what, where, and how?\""
 
@@ -80,15 +98,17 @@ params:
       participantstext: "Accepted abstracts"
       description: "Contributed spotlight talks (2-mins each)"
 
-    - time: "09:50 - 11:10"
-      participants:
-        - photo: "/img/LeslieKaelbling.png"
-        - photo: "/img/AleksandraFaust.png"
-        - photo: "/img/PeterKarkus.png"
-      description: "Moderated panel: \"LPPL: retrospects and prospects.\""
-    - time: "11:10 - 12:10"
+    - time: "09:50 - 10:50"
       participantstext: "All participants"
       description: "Virtual poster sessions at Gather.town"
+
+    - time: "10:50 - 12:10"
+      participants:
+        - photo: "/img/LeslieKaelbling.png"
+        - photo: "/img/NicholasRoy.png"
+        - photo: "/img/AlbertoRodriguez.png"
+        - photo: "/img/PeterKarkus.png"
+      description: "Moderated panel: \"LPPL: retrospects and prospects.\""
 
     - time: "12:10 Onwards"
       participantstext: "All participants"
