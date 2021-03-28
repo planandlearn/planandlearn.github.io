@@ -76,7 +76,7 @@ params:
     - name: "Aleksandra Faust"
       photo: "/img/AleksandraFaust.png"
       company: "Google Brain"
-      href: " https://www.afaust.info/"
+      href: "https://www.afaust.info/"
 
 
   Schedules:
