@@ -56,12 +56,12 @@ params:
     - name: "Siddhartha Srinivasa"
       photo: "/img/SiddharthaSrinivasa.png"
       company: "University of Washington (UW)"
+      href: "https://goodrobot.ai/"
 
     - name: "Nicholas Roy"
       photo: "/img/NicholasRoy.png"
       company: "Massachusetts Institute of Technology (MIT)"
       href: "https://aeroastro.mit.edu/faculty-research/faculty-list/nicholas-roy"
-      href: "https://goodrobot.ai/"
 
     - name: "Alberto Rodriguez"
       photo: "/img/AlbertoRodriguez.png"
