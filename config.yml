@@ -78,6 +78,11 @@ params:
       company: "Google Brain"
       href: "https://www.afaust.info/"
 
+    - name: "George Konidaris"
+      photo: "/img/GeorgeKonidaris.png"
+      company: "Brown University"
+      href: "https://cs.brown.edu/~gdk/"
+
 
   Schedules:
     - time: "07:55 - 08:00"
@@ -107,6 +112,7 @@ params:
         - photo: "/img/LeslieKaelbling.png"
         - photo: "/img/NicholasRoy.png"
         - photo: "/img/AlbertoRodriguez.png"
+        - photo: "/img/GeorgeKonidaris.png"
         - photo: "/img/PeterKarkus.png"
       description: "Moderated panel: \"LPPL: retrospects and prospects.\""
 
