@@ -8,8 +8,6 @@ GoogleAnalytics: ""
 
 params:
   # Conference info
-  Name: "RSS 2021 Workshop on Learning to Plan and Planning to Learn"
-  Description: "Conference description"
   Date: "Date T.B.A"
   Images: ["/img/badge.jpg"]
   GoogleMapsKey: "my-secret-maps-key"
@@ -83,42 +81,83 @@ params:
       company: "Brown University"
       href: "https://cs.brown.edu/~gdk/"
 
+    - name: "Igor Mordatch"
+      photo: "/img/IgorMordatch.png"
+      company: "Google Brain"
+      href: "https://scholar.google.com/citations?user=Vzr1RukAAAAJ"
+
+    - name: "Andreas Geiger"
+      photo: "/img/AndreasGeiger.png"
+      company: "University of Tübingen"
+      href: "http://www.cvlibs.net/"
+
+    - name: "Michael Posa"
+      photo: "/img/MichaelPosa.png"
+      company: "University of Pennsylvania"
+      href: "https://dair.seas.upenn.edu/michael-posa/"
+
+    - name: "Amy Zhang"
+      photo: "/img/AmyZhang.png"
+      company: "McGill University"
+      href: "https://amyzhang.github.io/"
+
+    - name: "Dieter Fox"
+      photo: "/img/DieterFox.png"
+      company: "University of Washington "
+      href: "https://homes.cs.washington.edu/~fox/"
+
+    - name: "Chelsea Finn"
+      photo: "/img/ChelseaFinn.png"
+      company: "Stanford University"
+      href: "https://ai.stanford.edu/~cbfinn/"
+
 
   Schedules:
-    - time: "07:55 - 08:00"
+    - time: "06:55 - 07:00"
       participants:
         - photo: "/img/PanpanCai.png"
       description: "Opening Remarks"
 
-    - time: "08:00 - 09:20"
-      participants:
-        - photo: "/img/DavidHsu.png"
-        - photo: "/img/SiddharthaSrinivasa.png"
-        - photo: "/img/AvivTamar.png"
-        - photo: "/img/AleksandraFaust.png"
-        - photo: "/img/PanpanCai.png"
-      description: "Moderated panel: \"LPPL: what, where, and how?\""
-
-    - time: "09:20 - 09:50"
-      participantstext: "Accepted abstracts"
-      description: "Contributed spotlight talks (2-mins each)"
-
-    - time: "09:50 - 10:50"
-      participantstext: "All participants"
-      description: "Virtual poster sessions at Gather.town"
-
-    - time: "10:50 - 12:10"
+    - time: "07:00 - 08:10"
       participants:
         - photo: "/img/LeslieKaelbling.png"
-        - photo: "/img/NicholasRoy.png"
-        - photo: "/img/AlbertoRodriguez.png"
-        - photo: "/img/GeorgeKonidaris.png"
-        - photo: "/img/PeterKarkus.png"
-      description: "Moderated panel: \"LPPL: retrospects and prospects.\""
+        - photo: "/img/DieterFox.png"
+        - photo: "/img/ChelseaFinn.png"
+        - photo: "/img/DavidHsu.png"
+        - photo: "/img/MarcToussaint.png"
+      description: "Moderated Panel I"
 
-    - time: "12:10 Onwards"
+    - time: "08:10 - 08:20"
+      participantstext: "Accepted abstracts"
+      description: "Spotlight Talks"
+
+    - time: "08:20 - 09:30"
+      participants:
+        - photo: "/img/AlbertoRodriguez.png"
+        - photo: "/img/AvivTamar.png"
+        - photo: "/img/AleksandraFaust.png"
+        - photo: "/img/GeorgeKonidaris.png"
+        - photo: "/img/SiddharthaSrinivasa.png"
+        - photo: "/img/PanpanCai.png"
+      description: "Moderated Panel II"
+
+    - time: "09:30 - 09:40"
+      participantstext: "Accepted abstracts"
+      description: "Spotlight Talks"
+
+    - time: "09:40 - 10:50"
+      participants:
+        - photo: "/img/IgorMordatch.png"
+        - photo: "/img/MichaelPosa.png"
+        - photo: "/img/AmyZhang.png"
+        - photo: "/img/AndreasGeiger.png"
+        - photo: "/img/NicholasRoy.png"
+        - photo: "/img/DannyDriess.png"
+      description: "Moderated panel III"
+
+    - time: "10:50 Onwards"
       participantstext: "All participants"
-      description: "Virtual coffee time at Gather.town"
+      description: "Poster and Social Sessions"
 
 
   Organizers:

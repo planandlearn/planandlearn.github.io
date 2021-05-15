@@ -408,20 +408,30 @@ nav .wrapper {
 /* =============================================================================
    SPEAKER
    ========================================================================== */
+.speakers-wrapper {
+  text-align: center;
+}
+
+.speakers-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
 .speakers-item {
+  width: 300px;
   position: relative;
-  min-height: 180px;
-  padding-left: 180px;
-  margin-bottom: 30px;
-  border-bottom: 1px dashed #e7e7e7;
+  padding: 10px;
+  text-align: center;
 }
 .speaker-photo {
-  position: absolute;
-  top: 15px;
-  left: 10px;
-  display: block;
+  position: relative;
+  display: inline-block;
   width: 120px;
   height: 120px;
+  margin-bottom: 15px;
+  text-align: center;
 }
 .organizer-photo {
   position: absolute;
@@ -433,9 +443,7 @@ nav .wrapper {
   height: 90px;
 }
 .speaker-main-name {
-  padding-top: 10px;
   font-size: 2.8em;
-  margin-bottom: 1em;
 }
 .speech-title {
   padding-top: 10px;
@@ -685,15 +693,6 @@ nav .wrapper {
   }
   .content section {
     padding-top: 50px;
-  }
-  /* speakers */
-  .speakers-item {
-    min-height: 70px;
-    padding-left: 70px;
-  }
-  .speaker-photo {
-    width: 50px;
-    height: 50px;
   }
   .organizer-photo {
     width: 30px;

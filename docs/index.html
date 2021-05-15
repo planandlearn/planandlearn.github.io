@@ -1,26 +1,27 @@
 <!doctype html>
 <html itemscope itemtype="http://schema.org/Event">
 <head>
-  <title itemprop="name">RSS 2021 Workshop on Learning to Plan and Planning to Learn</title>
+  <title itemprop="name"></title>
 
   <meta charset="utf-8">
-  <meta name="author" content="RSS 2021 Workshop on Learning to Plan and Planning to Learn" />
-  <meta name="description" content="Conference description">
+  <meta name="author" content="" />
+  <meta name="description" content="">
   <meta name="viewport" content="width=device-width">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <meta name="generator" content="Hugo 0.82.0" />
+  <meta name="generator" content="Hugo 0.68.3" />
   <meta property="og:title" content="Conference name" />
-<meta property="og:description" content="Conference description" />
+<meta property="og:description" content="" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://planandlearn.net/" /><meta property="og:image" content="https://planandlearn.net/img/badge.jpg"/>
+<meta property="og:url" content="https://planandlearn.net/" />
+<meta property="og:image" content="https://planandlearn.net/img/badge.jpg"/>
 
 
   <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://planandlearn.net/img/badge.jpg"/>
 
 <meta name="twitter:title" content="Conference name"/>
-<meta name="twitter:description" content="Conference description"/>
+<meta name="twitter:description" content=""/>
 
 
   <link rel="shortcut icon" href="https://planandlearn.net/img/favicon.ico" type="image/x-icon">
@@ -40,7 +41,7 @@
 
     <h1 class="logo-name">
       <p class="title-1">RSS 2021 Workshop on</p>
-      <p class="title-2">Learning to Plan and Planning to Learn</p>
+      <p class="title-2">Integrating Planning and Learning</p>
     </h1>
     <h2 class="tagline">Date T.B.A</h2>
 
@@ -159,14 +160,36 @@
           <section class="overview" id="overview">
             <h2 class="section-title">Overview</h2>
 
-<p class="about-description">Planning and learning are two crucial capabilities of robots. While planning seeks to solve a task by synthesizing policies on the fly, learning seeks to obtain solutions from experiences provided by data. The two domains have independently advanced in the past decades and both achieved remarkable success on their most suitable tasks. There is a noticeable trend to combine these two capabilities. Impressive success has been demonstrated by AlphaZero and MuZero, showing that the integration of planning and learning can advance human-level intelligence. Particularly, there are two complementary directions: learning to plan and planning to learn. From the perspective of planning, there are important attempts seeking to learn sampling distributions, action abstractions, heuristics, and representations for planning. From the perspective of learning, there are prominent efforts to enable active and uncertainty-aware learning, and to incorporate existing models to augment learning and achieve sample-efficiency. However, what is missing is a systematic discussion on where and how these two strategies shall be best applied and how they can be seamlessly integrated.</p>
+<p class="about-list-header">Planning and learning are two fundamental capabilities of robots. While planning seeks to solve a task by synthesizing policies on the fly, learning seeks to obtain solutions from experiences provided by data. The two domains have independently advanced in the past decades and both achieved remarkable success on their most suitable tasks. There is a noticeable trend to combine these two capabilities. Particularly, there are the following complementary directions:</p>
+<ul class="about-list">
+  <li class="about-item"><i>Learning to plan</i>: Learning heuristics, sampling distributions, action abstractions, etc. for planning.</li>
+  <li class="about-item"><i>Planning to learn</i>: Learning from planners; active learning; uncertainty-aware learning, etc.</li>
+  <li class="about-item"><i>Differentiable planners</i>: Embedding the structure of planners into neural networks to learn both the model and planner parameters end-to-end.</li>
+  <li class="about-item"><i>Model learning</i>: Learning dynamics and observation models for complex domains and use them for planning.</li>
+  <li class="about-item"><i>Learning representations</i>: Learning state, observation or belief representations to enable efficient planning with high-dimensional observation spaces.</li>
+  <li class="about-item"><i>Model augmented RL</i>: Leveraging models to augment learning and achieve sample-efficiency.</li>
+</ul>
+<br/>
+<p class="about-list-header">However, what is missing is a systematic discussion on where and how these strategies shall be best applied and how they can be seamlessly combined. For example:</p>
+<ul class="about-list">
+  <li class="about-item">How can we quantify that a learned model is useful beyond its prediction accuracy, i.e. it enables efficient planning and reasoning?</li>
+  <li class="about-item">How are the principles of planning to learn and learning to plan different from standard planning and learning principles?</li>
+  <li class="about-item">How to use learning subcomponents “properly” in planning, desirablly with theoretical guarantees?</li>
+  <li class="about-item">What meta-problems in learning can be formulated as planning problem?</li>
+  <li class="about-item">Are differentiable planners merely structural priors for deep RL, or beyond that?</li>
+</ul>
 
-<p class="about-description">In this workshop, we aim to bring together researchers in the planning and learning sub-domains, to discuss opportunities to integrate them — by planning to learn and learning to plan— and to incubate the next level of intelligence. Particularly, we will discuss what and how to learn for planning, what and how to plan for learning, as well as principled choices and combinations between these two. </p>
+<br/>
+<p class="about-description">In this workshop, we aim to bring together researchers in the planning and learning sub-domains, to discuss new opportunities to integrate them and to incubate the next level of intelligence.</p>
 
           </section>
         
-          <section class="speakers" id="speakers">
-            <h2 class="section-title">Speakers</h2>
+      </div>
+
+      <div class="speakers-wrapper">
+      
+        <section class="speakers" id="speakers">
+          <h2 class="section-title">Speakers</h2>
 
 <ul class="speakers-list">
 
@@ -290,30 +313,137 @@
     </h3>
   </li>
 
+  <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+    
+      <span class="speaker-photo">
+        <img class="photo" src="https://planandlearn.net/img/IgorMordatch.png" alt="Igor Mordatch" itemprop="image">
+      </span>
+    
+
+    <h3 class="speaker-main-name">
+      <span><a href=https://scholar.google.com/citations?user&#61;Vzr1RukAAAAJ target="_blank">Igor Mordatch</a></span>
+    </h3>
+
+    <h3 class="speaker-main-company">Google Brain
+    </h3>
+  </li>
+
+  <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+    
+      <span class="speaker-photo">
+        <img class="photo" src="https://planandlearn.net/img/AndreasGeiger.png" alt="Andreas Geiger" itemprop="image">
+      </span>
+    
+
+    <h3 class="speaker-main-name">
+      <span><a href=http://www.cvlibs.net/ target="_blank">Andreas Geiger</a></span>
+    </h3>
+
+    <h3 class="speaker-main-company">University of Tübingen
+    </h3>
+  </li>
+
+  <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+    
+      <span class="speaker-photo">
+        <img class="photo" src="https://planandlearn.net/img/MichaelPosa.png" alt="Michael Posa" itemprop="image">
+      </span>
+    
+
+    <h3 class="speaker-main-name">
+      <span><a href=https://dair.seas.upenn.edu/michael-posa/ target="_blank">Michael Posa</a></span>
+    </h3>
+
+    <h3 class="speaker-main-company">University of Pennsylvania
+    </h3>
+  </li>
+
+  <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+    
+      <span class="speaker-photo">
+        <img class="photo" src="https://planandlearn.net/img/AmyZhang.png" alt="Amy Zhang" itemprop="image">
+      </span>
+    
+
+    <h3 class="speaker-main-name">
+      <span><a href=https://amyzhang.github.io/ target="_blank">Amy Zhang</a></span>
+    </h3>
+
+    <h3 class="speaker-main-company">McGill University
+    </h3>
+  </li>
+
+  <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+    
+      <span class="speaker-photo">
+        <img class="photo" src="https://planandlearn.net/img/DieterFox.png" alt="Dieter Fox" itemprop="image">
+      </span>
+    
+
+    <h3 class="speaker-main-name">
+      <span><a href=https://homes.cs.washington.edu/~fox/ target="_blank">Dieter Fox</a></span>
+    </h3>
+
+    <h3 class="speaker-main-company">University of Washington 
+    </h3>
+  </li>
+
+  <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+    
+      <span class="speaker-photo">
+        <img class="photo" src="https://planandlearn.net/img/ChelseaFinn.png" alt="Chelsea Finn" itemprop="image">
+      </span>
+    
+
+    <h3 class="speaker-main-name">
+      <span><a href=https://ai.stanford.edu/~cbfinn/ target="_blank">Chelsea Finn</a></span>
+    </h3>
+
+    <h3 class="speaker-main-company">Stanford University
+    </h3>
+  </li>
+
 <p><b>More speakers to come!...</b></p>
 </ul>
 
-          </section>
+        </section>
+      
+      </div>
+
+      <div class="wrapper">
         
           <section class="topics" id="topics">
             <h2 class="section-title">Discussions</h2>
 
-<h3 class="about-list-header">Panel 1 - What, where, and how:</h3>
+<h3 class="about-list-header">Panel 1</h3>
 <ul class="about-list">
-  <li class="about-item">What: what to plan for and what to learn for?</li>
-  <li class="about-item">Where: when do we want to integrate planning and learning? where to use planning as the main tool, and where to use learning as the main tool?</li>
-  <li class="about-item">How: how are the principles of planning to learn and learning to plan different from standard planning and learning principles?</li>
-  <li class="about-item">How to do it “properly”: what theoretical properties remain important for the integrated systems? How do we achieve them? Are new forms of theoretical guarantees necessary?</li>
-  <li class="about-item">Other concerns: safety, computational cost, interpretability, etc.</li>
+  <li class="about-item">How are the principles of planning to learn and learning to plan different from standard planning and learning principles?</li>
+  <li class="about-item">How to use learning subcomponents "properly": What are the meaningful theoretical properties for the integrated systems? </li>
+  <li class="about-item">Are differentiable planners merely structural priors for deep RL, or beyond that? How general are differentiable planners? How do they scale up?</li>
+  <li class="about-item">Meta-problems in learning that can be solved using planning: which data to collect, hyper-parameter search, etc.</li>
+  <li class="about-item">Using concepts in planning to improve and innovate learning algorithms, and vice versa.</li>
 </ul>
 
-<h3 class="about-list-header">Panel 2 - Retrospects and prospects:</h3>
+<br/>
+
+<h3 class="about-list-header">Panel 2</h3>
 <ul class="about-list">
-  <li class="about-item">From decomposition to integration: what are the key improvements?</li>
-  <li class="about-item">Lessons learned from the past: what is proven to be right/promising, what has been proven to be wrong/not-so-promising?</li>
+  <li class="about-item">How to connect high-dimensional perception spaces to planning algorithms?</li>
+  <li class="about-item">What to plan for and what to learn for?</li>
+  <li class="about-item">When do we want to integrate planning and learning? Where to use planning as the main tool, and where to use learning as the main tool?</li>
   <li class="about-item">What have we achieved till now by integrating planning and learning?  What is still lacking?</li>
-  <li class="about-item">With recent developments of planning and learning sub-domains, what are the new chances for planning to learn, learning to plan, and their combinations?</li>
-  <li class="about-item">Connection with relevant schemes, e.g, learning to learn (meta-learning), planning to plan (TAMP), active learning, etc.</li>
+  <li class="about-item">With recent developments of planning and learning sub-domains, what are the new chances for planning to learn, learning representations, learning to plan?</li>
+</ul>
+
+<br/>
+
+<h3 class="about-list-header">Panel 3</h3>
+<ul class="about-list">
+  <li class="about-item">How to learn models that enable efficient reasoning for planning? How to quantify that? Is accuracy/dimensionality a good metric for judging the usefulness of a model for planning?</li>
+  <li class="about-item">Should models predict in some (abstract) state or perceptual space?</li>
+  <li class="about-item">Controversial: A differentiable simulator is all you need.</li>
+  <li class="about-item">What are good object models? Meshes, implicit surfaces, shape primitives?</li>
+  <li class="about-item">What parts of the world have to be modeled? Object interactions, dynamics, rewards, state reconstruction, discrete vs continuous aspects?</li>
 </ul>
 
 
@@ -349,7 +479,7 @@ We invite participants from all fields of robotics to submit extended abstracts 
   <table>
     <thead>
       <tr>
-        <th class="schedule-time">Time</th>
+        <th class="schedule-time">Time (<a href="https://www.timeanddate.com/time/zones/pdt" target="_blank">PDT</a>)</th>
         <th class="schedule-slot">Participants</th>
         <th class="schedule-description">Description</th>
       </tr>
@@ -357,11 +487,11 @@ We invite participants from all fields of robotics to submit extended abstracts 
     <tbody>
       
         <tr>
-          <td class="schedule-time">07:55 - 08:00</td>
+          <td class="schedule-time">06:55 - 07:00</td>
           <td class="schedule-slot">
             
             <span class="speaker-photo">
-              <img class="photo" src="https://planandlearn.net/img/PanpanCai.png">
+              <img class="photo" src="https://planandlearn.net/img/PanpanCai.png" alt="">
             </span>
             
             
@@ -373,27 +503,27 @@ We invite participants from all fields of robotics to submit extended abstracts 
         </tr>
       
         <tr>
-          <td class="schedule-time">08:00 - 09:20</td>
+          <td class="schedule-time">07:00 - 08:10</td>
           <td class="schedule-slot">
             
             <span class="speaker-photo">
-              <img class="photo" src="https://planandlearn.net/img/DavidHsu.png">
+              <img class="photo" src="https://planandlearn.net/img/LeslieKaelbling.png" alt="">
             </span>
             
             <span class="speaker-photo">
-              <img class="photo" src="https://planandlearn.net/img/SiddharthaSrinivasa.png">
+              <img class="photo" src="https://planandlearn.net/img/DieterFox.png" alt="">
             </span>
             
             <span class="speaker-photo">
-              <img class="photo" src="https://planandlearn.net/img/AvivTamar.png">
+              <img class="photo" src="https://planandlearn.net/img/ChelseaFinn.png" alt="">
             </span>
             
             <span class="speaker-photo">
-              <img class="photo" src="https://planandlearn.net/img/AleksandraFaust.png">
+              <img class="photo" src="https://planandlearn.net/img/DavidHsu.png" alt="">
             </span>
             
             <span class="speaker-photo">
-              <img class="photo" src="https://planandlearn.net/img/PanpanCai.png">
+              <img class="photo" src="https://planandlearn.net/img/MarcToussaint.png" alt="">
             </span>
             
             
@@ -401,11 +531,11 @@ We invite participants from all fields of robotics to submit extended abstracts 
             
             <span class="speakers-company"></span>
           </td>
-          <td class="schedule-description">Moderated panel: &#34;LPPL: what, where, and how?&#34;</td>
+          <td class="schedule-description">Moderated Panel I</td>
         </tr>
       
         <tr>
-          <td class="schedule-time">09:20 - 09:50</td>
+          <td class="schedule-time">08:10 - 08:20</td>
           <td class="schedule-slot">
             
             
@@ -415,11 +545,97 @@ We invite participants from all fields of robotics to submit extended abstracts 
             
             <span class="speakers-company"></span>
           </td>
-          <td class="schedule-description">Contributed spotlight talks (2-mins each)</td>
+          <td class="schedule-description">Spotlight Talks</td>
         </tr>
       
         <tr>
-          <td class="schedule-time">09:50 - 10:50</td>
+          <td class="schedule-time">08:20 - 09:30</td>
+          <td class="schedule-slot">
+            
+            <span class="speaker-photo">
+              <img class="photo" src="https://planandlearn.net/img/AlbertoRodriguez.png" alt="">
+            </span>
+            
+            <span class="speaker-photo">
+              <img class="photo" src="https://planandlearn.net/img/AvivTamar.png" alt="">
+            </span>
+            
+            <span class="speaker-photo">
+              <img class="photo" src="https://planandlearn.net/img/AleksandraFaust.png" alt="">
+            </span>
+            
+            <span class="speaker-photo">
+              <img class="photo" src="https://planandlearn.net/img/GeorgeKonidaris.png" alt="">
+            </span>
+            
+            <span class="speaker-photo">
+              <img class="photo" src="https://planandlearn.net/img/SiddharthaSrinivasa.png" alt="">
+            </span>
+            
+            <span class="speaker-photo">
+              <img class="photo" src="https://planandlearn.net/img/PanpanCai.png" alt="">
+            </span>
+            
+            
+
+            
+            <span class="speakers-company"></span>
+          </td>
+          <td class="schedule-description">Moderated Panel II</td>
+        </tr>
+      
+        <tr>
+          <td class="schedule-time">09:30 - 09:40</td>
+          <td class="schedule-slot">
+            
+            
+            Accepted abstracts
+            
+
+            
+            <span class="speakers-company"></span>
+          </td>
+          <td class="schedule-description">Spotlight Talks</td>
+        </tr>
+      
+        <tr>
+          <td class="schedule-time">09:40 - 10:50</td>
+          <td class="schedule-slot">
+            
+            <span class="speaker-photo">
+              <img class="photo" src="https://planandlearn.net/img/IgorMordatch.png" alt="">
+            </span>
+            
+            <span class="speaker-photo">
+              <img class="photo" src="https://planandlearn.net/img/MichaelPosa.png" alt="">
+            </span>
+            
+            <span class="speaker-photo">
+              <img class="photo" src="https://planandlearn.net/img/AmyZhang.png" alt="">
+            </span>
+            
+            <span class="speaker-photo">
+              <img class="photo" src="https://planandlearn.net/img/AndreasGeiger.png" alt="">
+            </span>
+            
+            <span class="speaker-photo">
+              <img class="photo" src="https://planandlearn.net/img/NicholasRoy.png" alt="">
+            </span>
+            
+            <span class="speaker-photo">
+              <img class="photo" src="https://planandlearn.net/img/DannyDriess.png" alt="">
+            </span>
+            
+            
+
+            
+            <span class="speakers-company"></span>
+          </td>
+          <td class="schedule-description">Moderated panel III</td>
+        </tr>
+      
+        <tr>
+          <td class="schedule-time">10:50 Onwards</td>
           <td class="schedule-slot">
             
             
@@ -429,143 +645,12 @@ We invite participants from all fields of robotics to submit extended abstracts 
             
             <span class="speakers-company"></span>
           </td>
-          <td class="schedule-description">Virtual poster sessions at Gather.town</td>
-        </tr>
-      
-        <tr>
-          <td class="schedule-time">10:50 - 12:10</td>
-          <td class="schedule-slot">
-            
-            <span class="speaker-photo">
-              <img class="photo" src="https://planandlearn.net/img/LeslieKaelbling.png">
-            </span>
-            
-            <span class="speaker-photo">
-              <img class="photo" src="https://planandlearn.net/img/NicholasRoy.png">
-            </span>
-            
-            <span class="speaker-photo">
-              <img class="photo" src="https://planandlearn.net/img/AlbertoRodriguez.png">
-            </span>
-            
-            <span class="speaker-photo">
-              <img class="photo" src="https://planandlearn.net/img/GeorgeKonidaris.png">
-            </span>
-            
-            <span class="speaker-photo">
-              <img class="photo" src="https://planandlearn.net/img/PeterKarkus.png">
-            </span>
-            
-            
-
-            
-            <span class="speakers-company"></span>
-          </td>
-          <td class="schedule-description">Moderated panel: &#34;LPPL: retrospects and prospects.&#34;</td>
-        </tr>
-      
-        <tr>
-          <td class="schedule-time">12:10 Onwards</td>
-          <td class="schedule-slot">
-            
-            
-            All participants
-            
-
-            
-            <span class="speakers-company"></span>
-          </td>
-          <td class="schedule-description">Virtual coffee time at Gather.town</td>
+          <td class="schedule-description">Poster and Social Sessions</td>
         </tr>
       
     </tbody>
   </table>
 </div>
-
-          </section>
-        
-          <section class="organizers" id="organizers">
-            <h2 class="section-title">Organizers</h2>
-
-<ul class="speakers-list organizers">
-
-  <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
-    
-      <span class="organizer-photo">
-        <img class="photo" src="https://planandlearn.net/img/PanpanCai.png" alt="Panpan Cai" itemprop="image">
-      </span>
-    
-
-    <h3 class="speech-title">
-      <span><a href=https://cindycia.github.io/ target="_blank">Panpan Cai</a></span>
-    </h3>
-
-    <h3 class="speakers-name">National University of Singapore (NUS)</h3>
-    <p class="speakers-bio">Panpan CAI is a postdoctoral research fellow at the National University of Singapore, working with David Hsu on integrated planning and learning, planning under uncertainty, and their applications on autonomous driving in crowded environments. She received her Ph.D. with Cai Yiyu and Zheng Jianmin at Nanyang Technological University. Panpan’s vision is to develop robots that can combine reasoning and learning to seamlessly interact with large-scale, dynamic, and interactive environments and accomplish challenging tasks.</p>
-  </li>
-
-  <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
-    
-      <span class="organizer-photo">
-        <img class="photo" src="https://planandlearn.net/img/PeterKarkus.png" alt="Peter Karkus" itemprop="image">
-      </span>
-    
-
-    <h3 class="speech-title">
-      <span><a href=http://karkus.tilda.ws/ target="_blank">Peter Karkus</a></span>
-    </h3>
-
-    <h3 class="speakers-name">National University of Singapore (NUS)</h3>
-    <p class="speakers-bio">Peter Karkus is a PhD candidate at the National University of Singapore advised by Prof. David Hsu. He has previously spent time at MIT as a visiting researcher and at Google and DeepMind as a research intern. Peter&#39;s vision is to build human-level robot intelligence by combining structure and reasoning with learning. Peter&#39;s recent works are on neural networks that encode differentiable robot algorithms in order to learn partially observable planning, visual navigation, mapping and localization tasks. His work has been recognized by a number of awards, including a Fulbright scholarship, NUS research achievement awards, and best paper nominations.</p>
-  </li>
-
-  <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
-    
-      <span class="organizer-photo">
-        <img class="photo" src="https://planandlearn.net/img/GilwooLee.png" alt="Gilwoo Lee" itemprop="image">
-      </span>
-    
-
-    <h3 class="speech-title">
-      <span><a href=http://leegilwoo.com/ target="_blank">Gilwoo Lee</a></span>
-    </h3>
-
-    <h3 class="speakers-name">Zordi, Inc.</h3>
-    <p class="speakers-bio">Gilwoo Lee is the founder CEO of Zordi, Inc., an agricultural startup focusing on controlled environment agriculture. Lee has received her Ph.D. degree from the University of Washington, where she was advised by Siddhartha S. Srinivasa. She has worked on Bayesian Reinforcement Learning, learning and planning under uncertainty, and human-robot interaction, with applications ranging from assistive robots to mobile racecars.</p>
-  </li>
-
-  <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
-    
-      <span class="organizer-photo">
-        <img class="photo" src="https://planandlearn.net/img/YiyuanLee.png" alt="Yiyuan Lee" itemprop="image">
-      </span>
-    
-
-    <h3 class="speech-title">
-      <span><a href=https://leeyiyuan.info target="_blank">Yiyuan Lee</a></span>
-    </h3>
-
-    <h3 class="speakers-name">National University of Singapore (NUS)</h3>
-    <p class="speakers-bio">Yiyuan Lee is an undergraduate researcher at the National University of Singapore, advised by Prof. David Hsu. He will be joining Rice University as a graduate student to work with Prof. Lydia Kavraki and Prof. Kaiyu Hang. His current interests lie in using learning to improve model-based planning for robotics tasks, particularly for planning under uncertainty. Previously, he has worked on systems for autonomous driving, including a real-world autonomous scooter as well as a simulator platform for autonomous driving in crowded environments.</p>
-  </li>
-
-  <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
-    
-      <span class="organizer-photo">
-        <img class="photo" src="https://planandlearn.net/img/DavidHsu.png" alt="David Hsu" itemprop="image">
-      </span>
-    
-
-    <h3 class="speech-title">
-      <span><a href=https://www.comp.nus.edu.sg/~dyhsu/ target="_blank">David Hsu</a></span>
-    </h3>
-
-    <h3 class="speakers-name">National University of Singapore (NUS)</h3>
-    <p class="speakers-bio">David Hsu is a Provost&#39;s Chair Professor in the Department of computer science, National University of Singapore (NUS). He received Ph.D. in computer science from Stanford University. At NUS, he co-founded NUS Advanced Robotics Center in 2013 and founded the NUS AI Laboratory (NUSAIL) in the School of Computing in 2019. He held visiting positions in MIT Aeronautics &amp; Astronautics Department and CMU Robotics Institue. He is an IEEE Fellow. His research interests span robotics, AI, and computational structural biology. In recent years, he has been working on robot planning and learning under uncertainty and human-robot collaboration.</p>
-  </li>
-
-</ul>
-
 
           </section>
         

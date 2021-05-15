@@ -28,7 +28,23 @@
 
     <div class="content" id="content">
       <div class="wrapper">
-        {{ range $section := .Site.Params.Sections }}
+        {{ range $section := (slice "overview") }}
+          <section class="{{ $section }}" id="{{ $section }}">
+            {{ partial $section $.Site.Params }}
+          </section>
+        {{ end }}
+      </div>
+
+      <div class="speakers-wrapper">
+      {{ range $section := (slice "speakers") }}
+        <section class="{{ $section }}" id="{{ $section }}">
+          {{ partial $section $.Site.Params }}
+        </section>
+      {{ end }}
+      </div>
+
+      <div class="wrapper">
+        {{ range $section := (slice "topics" "callforcontributions" "schedule" "contact") }}
           <section class="{{ $section }}" id="{{ $section }}">
             {{ partial $section $.Site.Params }}
           </section>

@@ -1,5 +1,23 @@
 <h2 class="section-title">{{ .titles.overview }}</h2>
 
-<p class="about-description">Planning and learning are two crucial capabilities of robots. While planning seeks to solve a task by synthesizing policies on the fly, learning seeks to obtain solutions from experiences provided by data. The two domains have independently advanced in the past decades and both achieved remarkable success on their most suitable tasks. There is a noticeable trend to combine these two capabilities. Impressive success has been demonstrated by AlphaZero and MuZero, showing that the integration of planning and learning can advance human-level intelligence. Particularly, there are two complementary directions: learning to plan and planning to learn. From the perspective of planning, there are important attempts seeking to learn sampling distributions, action abstractions, heuristics, and representations for planning. From the perspective of learning, there are prominent efforts to enable active and uncertainty-aware learning, and to incorporate existing models to augment learning and achieve sample-efficiency. However, what is missing is a systematic discussion on where and how these two strategies shall be best applied and how they can be seamlessly integrated.</p>
+<p class="about-list-header">Planning and learning are two fundamental capabilities of robots. While planning seeks to solve a task by synthesizing policies on the fly, learning seeks to obtain solutions from experiences provided by data. The two domains have independently advanced in the past decades and both achieved remarkable success on their most suitable tasks. There is a noticeable trend to combine these two capabilities. Particularly, there are the following complementary directions:</p>
+<ul class="about-list">
+  <li class="about-item"><i>Learning to plan</i>: Learning heuristics, sampling distributions, action abstractions, etc. for planning.</li>
+  <li class="about-item"><i>Planning to learn</i>: Learning from planners; active learning; uncertainty-aware learning, etc.</li>
+  <li class="about-item"><i>Differentiable planners</i>: Embedding the structure of planners into neural networks to learn both the model and planner parameters end-to-end.</li>
+  <li class="about-item"><i>Model learning</i>: Learning dynamics and observation models for complex domains and use them for planning.</li>
+  <li class="about-item"><i>Learning representations</i>: Learning state, observation or belief representations to enable efficient planning with high-dimensional observation spaces.</li>
+  <li class="about-item"><i>Model augmented RL</i>: Leveraging models to augment learning and achieve sample-efficiency.</li>
+</ul>
+<br/>
+<p class="about-list-header">However, what is missing is a systematic discussion on where and how these strategies shall be best applied and how they can be seamlessly combined. For example:</p>
+<ul class="about-list">
+  <li class="about-item">How can we quantify that a learned model is useful beyond its prediction accuracy, i.e. it enables efficient planning and reasoning?</li>
+  <li class="about-item">How are the principles of planning to learn and learning to plan different from standard planning and learning principles?</li>
+  <li class="about-item">How to use learning subcomponents “properly” in planning, desirablly with theoretical guarantees?</li>
+  <li class="about-item">What meta-problems in learning can be formulated as planning problem?</li>
+  <li class="about-item">Are differentiable planners merely structural priors for deep RL, or beyond that?</li>
+</ul>
 
-<p class="about-description">In this workshop, we aim to bring together researchers in the planning and learning sub-domains, to discuss opportunities to integrate them — by planning to learn and learning to plan— and to incubate the next level of intelligence. Particularly, we will discuss what and how to learn for planning, what and how to plan for learning, as well as principled choices and combinations between these two. </p>
+<br/>
+<p class="about-description">In this workshop, we aim to bring together researchers in the planning and learning sub-domains, to discuss new opportunities to integrate them and to incubate the next level of intelligence.</p>

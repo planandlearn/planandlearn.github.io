@@ -3,7 +3,7 @@
   <table>
     <thead>
       <tr>
-        <th class="schedule-time">Time</th>
+        <th class="schedule-time">Time (<a href="https://www.timeanddate.com/time/zones/pdt" target="_blank">PDT</a>)</th>
         <th class="schedule-slot">Participants</th>
         <th class="schedule-description">Description</th>
       </tr>
@@ -15,7 +15,7 @@
           <td class="schedule-slot">
             {{ range $photo := .participants }}
             <span class="speaker-photo">
-              <img class="photo" src="{{ .photo }}">
+              <img class="photo" src="{{ .photo }}" alt="{{ .name }}">
             </span>
             {{ end }}
             {{ with .participantstext }}
