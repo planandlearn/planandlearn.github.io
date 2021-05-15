@@ -113,12 +113,16 @@ params:
 
 
   Schedules:
-    - time: "06:55 - 07:00"
+    - timePdt: "06:55 - 07:00"
+      timeCest: "15:55 - 16:00"
+      timeSgt: "21:55 - 22:00"
       participants:
         - photo: "/img/PanpanCai.png"
       description: "Opening Remarks"
 
-    - time: "07:00 - 08:10"
+    - timePdt: "07:00 - 08:10"
+      timeCest: "16:00 - 17:10"
+      timeSgt: "22:00 - 23:10"
       participants:
         - photo: "/img/LeslieKaelbling.png"
         - photo: "/img/DieterFox.png"
@@ -127,11 +131,15 @@ params:
         - photo: "/img/MarcToussaint.png"
       description: "Moderated Panel I"
 
-    - time: "08:10 - 08:20"
+    - timePdt: "08:10 - 08:20"
+      timeCest: "17:10 - 17:20"
+      timeSgt: "23:10 - 23:20"
       participantstext: "Accepted abstracts"
       description: "Spotlight Talks"
 
-    - time: "08:20 - 09:30"
+    - timePdt: "08:20 - 09:30"
+      timeCest: "17:20 - 18:30"
+      timeSgt: "23:20 - 00:30"
       participants:
         - photo: "/img/AlbertoRodriguez.png"
         - photo: "/img/AvivTamar.png"
@@ -141,11 +149,15 @@ params:
         - photo: "/img/PanpanCai.png"
       description: "Moderated Panel II"
 
-    - time: "09:30 - 09:40"
+    - timePdt: "09:30 - 09:40"
+      timeCest: "18:30 - 18:40"
+      timeSgt: "00:30 - 00:40"
       participantstext: "Accepted abstracts"
       description: "Spotlight Talks"
 
-    - time: "09:40 - 10:50"
+    - timePdt: "09:40 - 10:50"
+      timeCest: "18:40 - 19:50"
+      timeSgt: "00:40 - 01:50"
       participants:
         - photo: "/img/IgorMordatch.png"
         - photo: "/img/MichaelPosa.png"
@@ -155,38 +167,55 @@ params:
         - photo: "/img/DannyDriess.png"
       description: "Moderated panel III"
 
-    - time: "10:50 Onwards"
+    - timePdt: "10:50 Onwards"
+      timeCest: "19:50 Onwards"
+      timeSgt: "01:50 Onwards"
       participantstext: "All participants"
       description: "Poster and Social Sessions"
 
 
   Organizers:
-    - name: "Panpan Cai"
+    - name: "Panpan Cai*"
       photo: "/img/PanpanCai.png"
-      bio: "Panpan CAI is a postdoctoral research fellow at the National University of Singapore, working with David Hsu on integrated planning and learning, planning under uncertainty, and their applications on autonomous driving in crowded environments. She received her Ph.D. with Cai Yiyu and Zheng Jianmin at Nanyang Technological University. Panpan’s vision is to develop robots that can combine reasoning and learning to seamlessly interact with large-scale, dynamic, and interactive environments and accomplish challenging tasks."
       company: "National University of Singapore (NUS)"
       href: "https://cindycia.github.io/"
 
+    - name: "Danny Driess*"
+      photo: "/img/DannyDriess.png"
+      company: "TU Berlin"
+      href: "https://dannydriess.github.io/"
+
     - name: "Peter Karkus"
       photo: "/img/PeterKarkus.png"
-      bio: "Peter Karkus is a PhD candidate at the National University of Singapore advised by Prof. David Hsu. He has previously spent time at MIT as a visiting researcher and at Google and DeepMind as a research intern. Peter's vision is to build human-level robot intelligence by combining structure and reasoning with learning. Peter's recent works are on neural networks that encode differentiable robot algorithms in order to learn partially observable planning, visual navigation, mapping and localization tasks. His work has been recognized by a number of awards, including a Fulbright scholarship, NUS research achievement awards, and best paper nominations."
       company: "National University of Singapore (NUS)"
       href: "http://karkus.tilda.ws/"
 
     - name: "Gilwoo Lee"
       photo: "/img/GilwooLee.png"
-      bio: "Gilwoo Lee is the founder CEO of Zordi, Inc., an agricultural startup focusing on controlled environment agriculture. Lee has received her Ph.D. degree from the University of Washington, where she was advised by Siddhartha S. Srinivasa. She has worked on Bayesian Reinforcement Learning, learning and planning under uncertainty, and human-robot interaction, with applications ranging from assistive robots to mobile racecars."
       company: "Zordi, Inc."
       href: "http://leegilwoo.com/"
 
     - name: "Yiyuan Lee"
       photo: "/img/YiyuanLee.png"
-      bio: "Yiyuan Lee is an undergraduate researcher at the National University of Singapore, advised by Prof. David Hsu. He will be joining Rice University as a graduate student to work with Prof. Lydia Kavraki and Prof. Kaiyu Hang. His current interests lie in using learning to improve model-based planning for robotics tasks, particularly for planning under uncertainty. Previously, he has worked on systems for autonomous driving, including a real-world autonomous scooter as well as a simulator platform for autonomous driving in crowded environments."
       company: "National University of Singapore (NUS)"
       href: "https://leeyiyuan.info"
 
+    - name: "Jeannette Bohg"
+      photo: "/img/JeannetteBohg.png"
+      company: "Stanford University"
+      href: "https://web.stanford.edu/~bohg/"
+
     - name: "David Hsu"
       photo: "/img/DavidHsu.png"
-      bio: "David Hsu is a Provost's Chair Professor in the Department of computer science, National University of Singapore (NUS). He received Ph.D. in computer science from Stanford University. At NUS, he co-founded NUS Advanced Robotics Center in 2013 and founded the NUS AI Laboratory (NUSAIL) in the School of Computing in 2019. He held visiting positions in MIT Aeronautics & Astronautics Department and CMU Robotics Institue. He is an IEEE Fellow. His research interests span robotics, AI, and computational structural biology. In recent years, he has been working on robot planning and learning under uncertainty and human-robot collaboration."
       company: "National University of Singapore (NUS)"
       href: "https://www.comp.nus.edu.sg/~dyhsu/"
+
+    - name: "Russ Tedrake"
+      photo: "/img/RussTedrake.png"
+      company: "Massachusetts Institute of Technology"
+      href: "https://groups.csail.mit.edu/locomotion/russt.html"
+
+    - name: "Marc Toussaint"
+      photo: "/img/MarcToussaint.png"
+      company: "TU Berlin"
+      href: "http://www.marc-toussaint.net/"

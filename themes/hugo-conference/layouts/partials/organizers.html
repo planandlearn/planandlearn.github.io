@@ -1,10 +1,10 @@
 <h2 class="section-title">{{ .titles.organizers }}</h2>
 
-<ul class="speakers-list organizers">
+<ul class="speakers-list">
 {{ range $speaker := .organizers }}
   <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
     {{ with .photo }}
-      <span class="organizer-photo">
+      <span class="speaker-photo">
         <img class="photo" src="{{ . }}" alt="{{ $speaker.name }}" itemprop="image">
       </span>
     {{ end }}
@@ -14,8 +14,9 @@
     </h3>
 
     <h3 class="speakers-name">{{ .company }}</h3>
-    <p class="speakers-bio">{{ .bio }}</p>
   </li>
 {{ end }}
 </ul>
+<br/>
+<p>* Main organizers</p>
 

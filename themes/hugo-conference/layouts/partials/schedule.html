@@ -3,7 +3,7 @@
   <table>
     <thead>
       <tr>
-        <th class="schedule-time">Time (<a href="https://www.timeanddate.com/time/zones/pdt" target="_blank">PDT</a>)</th>
+        <th class="schedule-time">Time</th>
         <th class="schedule-slot">Participants</th>
         <th class="schedule-description">Description</th>
       </tr>
@@ -11,7 +11,13 @@
     <tbody>
       {{ range $slot := .schedules }}
         <tr>
-          <td class="schedule-time">{{ $slot.time }}</td>
+          <td class="schedule-time">
+            <ul>
+              <li>(<a href="https://www.timeanddate.com/time/zones/pdt" target="_blank">PDT</a>) {{ $slot.timePdt }}</li>
+              <li>(<a href="https://www.timeanddate.com/time/zones/cest" target="_blank">CEST</a>) {{ $slot.timeCest }}</li>
+              <li>(<a href="https://www.timeanddate.com/time/zones/sgt" target="_blank">SGT</a>) {{ $slot.timeSgt }}</li>
+            </ul>
+          </td>
           <td class="schedule-slot">
             {{ range $photo := .participants }}
             <span class="speaker-photo">

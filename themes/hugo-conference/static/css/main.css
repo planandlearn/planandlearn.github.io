@@ -433,15 +433,6 @@ nav .wrapper {
   margin-bottom: 15px;
   text-align: center;
 }
-.organizer-photo {
-  position: absolute;
-  top: 15px;
-  left: 40px;
-  right: 0px;
-  display: block;
-  width: 90px;
-  height: 90px;
-}
 .speaker-main-name {
   font-size: 2.8em;
 }
@@ -460,6 +451,7 @@ nav .wrapper {
 }
 .speakers-name {
   font-size: 1.6em;
+  margin-top: -1em;
 }
 .speakers-item p {
   font-size: 1.4em;
@@ -694,12 +686,6 @@ nav .wrapper {
   .content section {
     padding-top: 50px;
   }
-  .organizer-photo {
-    width: 30px;
-    height: 30px;
-    top: 5px;
-    left: 15px;
-  }
   .speech-title {
     padding-top: 0;
     font-size: 16px;
@@ -842,8 +828,7 @@ nav {
 /* =============================================================================
    SPEAKER
    ========================================================================== */
-.speaker-photo .photo,
-.organizer-photo .photo {
+.speaker-photo .photo {
   border-radius: 50%;
   box-shadow: 0 0 0 8px rgba(0, 0, 0, 0.07);
   -webkit-transition: all 0.3s ease-out;
@@ -852,8 +837,7 @@ nav {
   -o-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
-.speakers-item:hover .speaker-photo .photo,
-.speakers-item:hover .organizer-photo .photo {
+.speakers-item:hover .speaker-photo .photo {
   box-shadow: 0 0 0 8px rgba(0, 0, 0, 0.3);
 }
 .speech-time {
@@ -946,9 +930,6 @@ nav {
   .speaker-photo .photo {
     box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.07);
   }
-  .organizer-photo .photo {
-    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.07);
-  }
   .speech-title {
     font-weight: bolder;
   }
@@ -960,11 +941,6 @@ nav {
   .github-link {
     display: none;
   }
-}
-
-ul.organizers {
-  text-align: justify;
-  text-justify: inter-word;
 }
 
 #fixed-nav {

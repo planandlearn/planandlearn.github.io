@@ -44,7 +44,23 @@
       </div>
 
       <div class="wrapper">
-        {{ range $section := (slice "topics" "callforcontributions" "schedule" "contact") }}
+        {{ range $section := (slice "topics" "callforcontributions" "schedule") }}
+          <section class="{{ $section }}" id="{{ $section }}">
+            {{ partial $section $.Site.Params }}
+          </section>
+        {{ end }}
+      </div>
+
+      <div class="speakers-wrapper">
+      {{ range $section := (slice "organizers") }}
+        <section class="{{ $section }}" id="{{ $section }}">
+          {{ partial $section $.Site.Params }}
+        </section>
+      {{ end }}
+      </div>
+
+      <div class="wrapper">
+        {{ range $section := (slice "contact") }}
           <section class="{{ $section }}" id="{{ $section }}">
             {{ partial $section $.Site.Params }}
           </section>
