@@ -475,7 +475,7 @@ nav .wrapper {
   padding: 20px 30px;
   font-size: 1.4em;
   line-height: 1.4em;
-  text-align: center;
+  text-align: left;
 }
 .schedule-tbl th {
   padding: 5px 30px;
@@ -496,7 +496,7 @@ nav .wrapper {
   text-align: center;
 }
 .schedule-slot {
-  width: auto;
+  width: 250px;
   font-size: 16px;
 }
 .speakers-company {
@@ -596,7 +596,7 @@ nav .wrapper {
     height: 40px;
     margin-right: 5px;
   }
-  .schedule-tbl .schedule-description {
+  .schedule-tbl .schedule-slot {
     width: 120px;
   }
   .schedule-tbl td.schedule-slot {
@@ -606,7 +606,7 @@ nav .wrapper {
   .schedule-tbl .schedule-time {
     width: 60px;
     padding: 10px 0 10px 5px;
-    text-align: center;
+    text-align: left;
   }
   .schedule-tbl td.schedule-description,
   .schedule-tbl td.schedule-slot {

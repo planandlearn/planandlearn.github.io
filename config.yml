@@ -135,7 +135,8 @@ params:
           name: "Chelsea Finn"
         - photo: "/img/DavidHsu.png"
           name: "David Hsu"
-        - photo: "/img/MarcToussaint.png"
+      moderator:
+          photo: "/img/MarcToussaint.png"
           name: "Marc Toussaint"
       description: "Moderated Panel I"
 
@@ -159,8 +160,11 @@ params:
           name: "George Konidaris"
         - photo: "/img/SiddharthaSrinivasa.png"
           name: "Siddhartha Srinivasa"
-        - photo: "/img/PanpanCai.png"
+      moderator:
+          photo: "/img/PanpanCai.png"
           name: "Panpan Cai"
+
+      moderatorName: "Panpan Cai"
       description: "Moderated Panel II"
 
     - timePdt: "09:30 - 09:40"
@@ -183,7 +187,8 @@ params:
           name: "Andreas Geiger"
         - photo: "/img/NicholasRoy.png"
           name: "Nicholas Roy"
-        - photo: "/img/DannyDriess.png"
+      moderator:
+          photo: "/img/DannyDriess.png"
           name: "Danny Driess"
       description: "Moderated panel III"
 
