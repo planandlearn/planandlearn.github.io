@@ -20,9 +20,12 @@
           </td>
           <td class="schedule-slot">
             {{ range $photo := .participants }}
-            <span class="speaker-photo">
-              <img class="photo" src="{{ .photo }}" alt="{{ .name }}">
-            </span>
+            <div class="schedule-speaker-entry">
+              <span class="speaker-photo">
+                <img class="photo" src="{{ .photo }}" alt="{{ .name }}">
+              </span>
+              {{ .name }}
+            </div>
             {{ end }}
             {{ with .participantstext }}
             {{ . }}

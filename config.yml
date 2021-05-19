@@ -118,6 +118,9 @@ params:
       timeSgt: "21:55 - 22:00"
       participants:
         - photo: "/img/PanpanCai.png"
+          name: "Panpan Cai"
+        - photo: "/img/DannyDriess.png"
+          name: "Danny Driess"
       description: "Opening Remarks"
 
     - timePdt: "07:00 - 08:10"
@@ -125,10 +128,15 @@ params:
       timeSgt: "22:00 - 23:10"
       participants:
         - photo: "/img/LeslieKaelbling.png"
+          name: "LeslieKaelbling"
         - photo: "/img/DieterFox.png"
+          name: "Dieter Fox"
         - photo: "/img/ChelseaFinn.png"
+          name: "Chelsea Finn"
         - photo: "/img/DavidHsu.png"
+          name: "David Hsu"
         - photo: "/img/MarcToussaint.png"
+          name: "Marc Toussaint"
       description: "Moderated Panel I"
 
     - timePdt: "08:10 - 08:20"
@@ -142,11 +150,17 @@ params:
       timeSgt: "23:20 - 00:30"
       participants:
         - photo: "/img/AlbertoRodriguez.png"
+          name: "Alberto Rodriguez"
         - photo: "/img/AvivTamar.png"
+          name: "Aviv Tamar"
         - photo: "/img/AleksandraFaust.png"
+          name: "Aleksandra Faust"
         - photo: "/img/GeorgeKonidaris.png"
+          name: "George Konidaris"
         - photo: "/img/SiddharthaSrinivasa.png"
+          name: "Siddhartha Srinivasa"
         - photo: "/img/PanpanCai.png"
+          name: "Panpan Cai"
       description: "Moderated Panel II"
 
     - timePdt: "09:30 - 09:40"
@@ -160,11 +174,17 @@ params:
       timeSgt: "00:40 - 01:50"
       participants:
         - photo: "/img/IgorMordatch.png"
+          name: "Igor Mordatch"
         - photo: "/img/MichaelPosa.png"
+          name: "Michael Posa"
         - photo: "/img/AmyZhang.png"
+          name: "Amy Zhang"
         - photo: "/img/AndreasGeiger.png"
+          name: "Andreas Geiger"
         - photo: "/img/NicholasRoy.png"
+          name: "Nicholas Roy"
         - photo: "/img/DannyDriess.png"
+          name: "Danny Driess"
       description: "Moderated panel III"
 
     - timePdt: "10:50 Onwards"
