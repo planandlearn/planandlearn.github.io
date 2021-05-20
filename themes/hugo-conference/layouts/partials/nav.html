@@ -1,23 +1,19 @@
 <nav id="nav">
-  <ul class="wrapper">
+  <div class="wrapper">
     {{ range $section := $.Site.Params.Sections }}
-      <li class="nav-item">
-        <a href="#{{ $section }}" title="{{ index $.Site.Params.Titles $section }}" class="nav-link">
-          {{ index $.Site.Params.Titles $section }}
-        </a>
-      </li>
+    <a href="#{{ $section }}" title="{{ index $.Site.Params.Titles $section }}" class="nav-item">
+      {{ index $.Site.Params.Titles $section }}
+    </a>
     {{ end }}
-  </ul>
+  </div>
 </nav>
 
 <nav id="fixed-nav">
-  <ul class="wrapper">
+  <div class="wrapper">
     {{ range $section := $.Site.Params.Sections }}
-      <li class="nav-item">
-        <a href="#{{ $section }}" title="{{ index $.Site.Params.Titles $section }}" class="nav-link">
-          {{ index $.Site.Params.Titles $section }}
-        </a>
-      </li>
+    <a href="#{{ $section }}" title="{{ index $.Site.Params.Titles $section }}" class="nav-item">
+      {{ index $.Site.Params.Titles $section }}
+    </a>
     {{ end }}
-  </ul>
+  </div>
 </nav>
