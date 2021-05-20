@@ -4,6 +4,8 @@ canonifyurls: true
 theme: "hugo-conference"
 publishDir: "docs"
 
+GoogleAnalytics: "UA-68147157-8"
+
 params:
   # Conference info
   Date: "Date T.B.A"
