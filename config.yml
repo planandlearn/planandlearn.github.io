@@ -1,5 +1,5 @@
 baseurl: "https://planandlearn.net/"
-title: "Conference name"
+title: "RSS 2021 Workshop on Integrating Planning and Learning"
 canonifyurls: true
 theme: "hugo-conference"
 publishDir: "docs"
