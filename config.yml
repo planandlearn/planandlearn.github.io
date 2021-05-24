@@ -41,45 +41,35 @@ params:
 
   # Speakers
   Speakers:
-    - name: "Alberto Rodriguez"
-      photo: "/img/AlbertoRodriguez.png"
-      company: "Massachusetts Institute of Technology (MIT)"
-      href: "http://meche.mit.edu/people/faculty/ALBERTOR@MIT.EDU"
-
     - name: "Aleksandra Faust"
       photo: "/img/AleksandraFaust.png"
       company: "Google Brain"
       href: "https://www.afaust.info/"
-
-    - name: "Amy Zhang"
-      photo: "/img/AmyZhang.png"
-      company: "McGill University"
-      href: "https://amyzhang.github.io/"
-
-    - name: "Andreas Geiger"
-      photo: "/img/AndreasGeiger.png"
-      company: "University of Tübingen"
-      href: "http://www.cvlibs.net/"
-
-    - name: "Aviv Tamar"
-      photo: "/img/AvivTamar.png"
-      company: "Israel Institute for Technology"
-      href: "https://avivt.github.io/avivt/"
 
     - name: "Chelsea Finn"
       photo: "/img/ChelseaFinn.png"
       company: "Stanford University"
       href: "https://ai.stanford.edu/~cbfinn/"
 
+    - name: "Dieter Fox"
+      photo: "/img/DieterFox.png"
+      company: "University of Washington "
+      href: "https://homes.cs.washington.edu/~fox/"
+
+    - name: "Andreas Geiger"
+      photo: "/img/AndreasGeiger.png"
+      company: "University of Tübingen"
+      href: "http://www.cvlibs.net/"
+
     - name: "David Hsu"
       photo: "/img/DavidHsu.png"
       company: "National University of Singapore (NUS)"
       href: "https://www.comp.nus.edu.sg/~dyhsu/"
 
-    - name: "Dieter Fox"
-      photo: "/img/DieterFox.png"
-      company: "University of Washington "
-      href: "https://homes.cs.washington.edu/~fox/"
+    - name: "Leslie Kaelbling"
+      photo: "/img/LeslieKaelbling.png"
+      company: "Massachusetts Institute of Technology (MIT)"
+      href: "http://people.csail.mit.edu/lpk/"
 
     - name: "George Konidaris"
       photo: "/img/GeorgeKonidaris.png"
@@ -91,15 +81,15 @@ params:
       company: "Google Brain"
       href: "https://scholar.google.com/citations?user=Vzr1RukAAAAJ"
 
-    - name: "Leslie Kaelbling"
-      photo: "/img/LeslieKaelbling.png"
-      company: "Massachusetts Institute of Technology (MIT)"
-      href: "http://people.csail.mit.edu/lpk/"
-
     - name: "Michael Posa"
       photo: "/img/MichaelPosa.png"
       company: "University of Pennsylvania"
       href: "https://dair.seas.upenn.edu/michael-posa/"
+
+    - name: "Alberto Rodriguez"
+      photo: "/img/AlbertoRodriguez.png"
+      company: "Massachusetts Institute of Technology (MIT)"
+      href: "http://meche.mit.edu/people/faculty/ALBERTOR@MIT.EDU"
 
     - name: "Nicholas Roy"
       photo: "/img/NicholasRoy.png"
@@ -111,6 +101,16 @@ params:
       company: "University of Washington (UW)"
       href: "https://goodrobot.ai/"
 
+    - name: "Aviv Tamar"
+      photo: "/img/AvivTamar.png"
+      company: "Israel Institute for Technology"
+      href: "https://avivt.github.io/avivt/"
+
+    - name: "Amy Zhang"
+      photo: "/img/AmyZhang.png"
+      company: "McGill University"
+      href: "https://amyzhang.github.io/"
+
 
   Schedules:
 
@@ -118,16 +118,16 @@ params:
       timeCest: "19:00 - 20:30"
       timeSgt: "01:00 - 02:30"
       participants:
-        - photo: "/img/AlbertoRodriguez.png"
-          name: "Alberto Rodriguez"
         - photo: "/img/AleksandraFaust.png"
           name: "Aleksandra Faust"
-        - photo: "/img/AvivTamar.png"
-          name: "Aviv Tamar"
         - photo: "/img/GeorgeKonidaris.png"
           name: "George Konidaris"
+        - photo: "/img/AlbertoRodriguez.png"
+          name: "Alberto Rodriguez"
         - photo: "/img/SiddharthaSrinivasa.png"
           name: "Siddhartha Srinivasa"
+        - photo: "/img/AvivTamar.png"
+          name: "Aviv Tamar"
       moderator:
           photo: "/img/PanpanCai.png"
           name: "Panpan Cai"
@@ -137,8 +137,6 @@ params:
       timeCest: "20:40 - 22:10"
       timeSgt: "02:40 - 04:10"
       participants:
-        - photo: "/img/AmyZhang.png"
-          name: "Amy Zhang"
         - photo: "/img/AndreasGeiger.png"
           name: "Andreas Geiger"
         - photo: "/img/IgorMordatch.png"
@@ -147,6 +145,8 @@ params:
           name: "Michael Posa"
         - photo: "/img/NicholasRoy.png"
           name: "Nicholas Roy"
+        - photo: "/img/AmyZhang.png"
+          name: "Amy Zhang"
       moderator:
           photo: "/img/DannyDriess.png"
           name: "Danny Driess"
@@ -170,10 +170,10 @@ params:
       participants:
         - photo: "/img/ChelseaFinn.png"
           name: "Chelsea Finn"
-        - photo: "/img/DavidHsu.png"
-          name: "David Hsu"
         - photo: "/img/DieterFox.png"
           name: "Dieter Fox"
+        - photo: "/img/DavidHsu.png"
+          name: "David Hsu"
         - photo: "/img/LeslieKaelbling.png"
           name: "Leslie Kaelbling"
       moderator:
