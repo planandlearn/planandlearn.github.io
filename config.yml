@@ -58,11 +58,6 @@ params:
       company: "University of Washington "
       href: "https://homes.cs.washington.edu/~fox/"
 
-    - name: "Andreas Geiger"
-      photo: "/img/AndreasGeiger.png"
-      company: "University of Tübingen"
-      href: "http://www.cvlibs.net/"
-
     - name: "David Hsu"
       photo: "/img/DavidHsu.png"
       company: "National University of Singapore (NUS)"
@@ -139,8 +134,6 @@ params:
       timeCest: "20:40 - 22:10"
       timeSgt: "02:40 - 04:10"
       participants:
-        - photo: "/img/AndreasGeiger.png"
-          name: "Andreas Geiger"
         - photo: "/img/IgorMordatch.png"
           name: "Igor Mordatch"
         - photo: "/img/MichaelPosa.png"
