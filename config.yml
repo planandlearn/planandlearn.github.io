@@ -177,8 +177,8 @@ params:
         - photo: "/img/LeslieKaelbling.png"
           name: "Leslie Kaelbling"
       moderator:
-          photo: "/img/MarcToussaint.png"
-          name: "Marc Toussaint"
+          photo: "/img/RussTedrake.png"
+          name: "Russ Tedrake"
       description: "Moderated panel III"
 
     - timePdt: "18:30 - 18:50"
