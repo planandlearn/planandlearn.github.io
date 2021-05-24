@@ -8,7 +8,7 @@ GoogleAnalytics: "UA-68147157-8"
 
 params:
   # Conference info
-  Date: "Date T.B.A"
+  Date: "July 12, 2021"
   Images: ["/img/badge.jpg"]
   GoogleMapsKey: "my-secret-maps-key"
 
