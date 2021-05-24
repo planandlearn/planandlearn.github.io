@@ -8,6 +8,8 @@ GoogleAnalytics: "UA-68147157-8"
 
 params:
   # Conference info
+  Name: "RSS 2021 Workshop on Integrating Planning and Learning"
+  Description: "RSS 2021 Workshop on Integrating Planning and Learning"
   Date: "July 12, 2021"
   Images: ["/img/badge.jpg"]
   GoogleMapsKey: "my-secret-maps-key"
