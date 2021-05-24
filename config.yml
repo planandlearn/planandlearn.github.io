@@ -187,7 +187,7 @@ params:
       participantstext: "Accepted abstracts"
       description: "Spotlight Talks (Group 2)"
 
-    - timePdt: "18:40 onwards"
+    - timePdt: "18:50 onwards"
       timeCest: "03:50 onwards"
       timeSgt: "09:50 onwards"
       participantstext: "All participants"
