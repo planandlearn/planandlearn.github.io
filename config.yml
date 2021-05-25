@@ -161,7 +161,7 @@ params:
 
     - timePdt: "17:00 - 18:30"
       timeCest: "02:00 - 03:30"
-      timeSgt: "08:00 - 08:30"
+      timeSgt: "08:00 - 09:30"
       participants:
         - photo: "/img/ChelseaFinn.png"
           name: "Chelsea Finn"
