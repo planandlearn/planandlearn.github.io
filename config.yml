@@ -220,11 +220,6 @@ params:
       company: "Stanford University"
       href: "https://web.stanford.edu/~bohg/"
 
-    - name: "David Hsu"
-      photo: "/img/DavidHsu.png"
-      company: "National University of Singapore (NUS)"
-      href: "https://www.comp.nus.edu.sg/~dyhsu/"
-
     - name: "Russ Tedrake"
       photo: "/img/RussTedrake.png"
       company: "Massachusetts Institute of Technology"
