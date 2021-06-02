@@ -93,11 +93,6 @@ params:
       company: "Massachusetts Institute of Technology (MIT)"
       href: "https://aeroastro.mit.edu/faculty-research/faculty-list/nicholas-roy"
 
-    - name: "Siddhartha Srinivasa"
-      photo: "/img/SiddharthaSrinivasa.png"
-      company: "University of Washington (UW)"
-      href: "https://goodrobot.ai/"
-
     - name: "Aviv Tamar"
       photo: "/img/AvivTamar.png"
       company: "Israel Institute for Technology"
@@ -121,8 +116,6 @@ params:
           name: "George Konidaris"
         - photo: "/img/AlbertoRodriguez.png"
           name: "Alberto Rodriguez"
-        - photo: "/img/SiddharthaSrinivasa.png"
-          name: "Siddhartha Srinivasa"
         - photo: "/img/AvivTamar.png"
           name: "Aviv Tamar"
       moderator:
