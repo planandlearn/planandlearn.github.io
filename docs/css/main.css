@@ -473,7 +473,11 @@ p {
   left: 0;
 }
 .schedule-tbl .schedule-time {
+  width: 150px;
   text-align: center;
+}
+.schedule-tbl .schedule-time .schedule-time-zone {
+  margin-bottom: 10px;
 }
 .schedule-slot {
   width: 250px;

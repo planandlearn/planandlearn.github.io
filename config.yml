@@ -107,8 +107,11 @@ params:
   Schedules:
 
     - timePdt: "10:00 - 11:30"
+      timePdtDetails: ", July 12"
       timeCest: "19:00 - 20:30"
+      timeCestDetails: ", July 12"
       timeSgt: "01:00 - 02:30"
+      timeSgtDetails: ", July 13"
       participants:
         - photo: "/img/AleksandraFaust.png"
           name: "Aleksandra Faust"
@@ -121,11 +124,14 @@ params:
       moderator:
           photo: "/img/PanpanCai.png"
           name: "Panpan Cai"
-      description: "Moderated Panel I"
+      description: "Moderated Panel I - Learning to plan, differentiable planner, and planning to learn"
 
     - timePdt: "11:40 - 13:10"
+      timePdtDetails: ", July 12"
       timeCest: "20:40 - 22:10"
+      timeCestDetails: ", July 12"
       timeSgt: "02:40 - 04:10"
+      timeSgtDetails: ", July 13"
       participants:
         - photo: "/img/IgorMordatch.png"
           name: "Igor Mordatch"
@@ -138,23 +144,32 @@ params:
       moderator:
           photo: "/img/DannyDriess.png"
           name: "Danny Driess"
-      description: "Moderated Panel II"
+      description: "Moderated Panel II - Model learning, learning representations, and model-augmented learning"
 
     - timePdt: "13:10 - 13:30"
+      timePdtDetails: ", July 12"
       timeCest: "22:10 - 22:30"
+      timeCestDetails: ", July 12"
       timeSgt: "04:10 - 04:30"
+      timeSgtDetails: ", July 13"
       participantstext: "Accepted abstracts"
       description: "Spotlight Talks (Group 1)"
 
     - timePdt: "13:30 - 17:00"
+      timePdtDetails: ", July 12"
       timeCest: "22:30 - 02:00"
+      timeCestDetails: ", July 12-13"
       timeSgt: "04:30 - 08:00"
+      timeSgtDetails: ", July 13"
       participantstext: "All participants"
       description: "Poster and Social Sessions"
 
     - timePdt: "17:00 - 18:30"
+      timePdtDetails: ", July 12"
       timeCest: "02:00 - 03:30"
+      timeCestDetails: ", July 13"
       timeSgt: "08:00 - 09:30"
+      timeSgtDetails: ", July 13"
       participants:
         - photo: "/img/ChelseaFinn.png"
           name: "Chelsea Finn"
@@ -167,17 +182,23 @@ params:
       moderator:
           photo: "/img/RussTedrake.png"
           name: "Russ Tedrake"
-      description: "Moderated panel III"
+      description: "Moderated panel III - New opportunities for integrating planning and learning"
 
     - timePdt: "18:30 - 18:50"
+      timePdtDetails: ", July 12"
       timeCest: "03:30 - 03:50"
+      timeCestDetails: ", July 13"
       timeSgt: "09:30 - 09:50"
+      timeSgtDetails: ", July 13"
       participantstext: "Accepted abstracts"
       description: "Spotlight Talks (Group 2)"
 
     - timePdt: "18:50 onwards"
+      timePdtDetails: ", July 12"
       timeCest: "03:50 onwards"
+      timeCestDetails: ", July 13"
       timeSgt: "09:50 onwards"
+      timeSgtDetails: ", July 13"
       participantstext: "All participants"
       description: "Poster and Social Sessions"
 

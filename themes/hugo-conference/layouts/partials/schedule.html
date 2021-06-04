@@ -13,9 +13,12 @@
         <tr>
           <td class="schedule-time">
             <ul>
-              <li>(<a href="https://www.timeanddate.com/time/zones/pdt" target="_blank">PDT</a>) {{ $slot.timePdt }}</li>
-              <li>(<a href="https://www.timeanddate.com/time/zones/cest" target="_blank">CEST</a>) {{ $slot.timeCest }}</li>
-              <li>(<a href="https://www.timeanddate.com/time/zones/sgt" target="_blank">SGT</a>) {{ $slot.timeSgt }}</li>
+              <li>{{ $slot.timePdt }}</li>
+              <li class="schedule-time-zone">(<a href="https://www.timeanddate.com/time/zones/pdt" target="_blank">PDT{{ $slot.timePdtDetails }}</a>)</li>
+              <li>{{ $slot.timeCest }}</li>
+              <li class="schedule-time-zone">(<a href="https://www.timeanddate.com/time/zones/cest" target="_blank">CEST{{ $slot.timeCestDetails }}</a>)</li>
+              <li>{{ $slot.timeSgt }}</li>
+              <li class="schedule-time-zone">(<a href="https://www.timeanddate.com/time/zones/sgt" target="_blank">SGT{{ $slot.timeSgtDetails }}</a>)</li>
             </ul>
           </td>
           <td class="schedule-slot">
