@@ -124,7 +124,7 @@ params:
       moderator:
           photo: "/img/PanpanCai.png"
           name: "Panpan Cai"
-      description: "Moderated Panel I - Learning to plan, differentiable planner, and planning to learn"
+      description: "Moderated Panel I: Learning to plan, differentiable planner, and planning to learn."
 
     - timePdt: "11:40 - 13:10"
       timePdtDetails: ", July 12"
@@ -144,7 +144,7 @@ params:
       moderator:
           photo: "/img/DannyDriess.png"
           name: "Danny Driess"
-      description: "Moderated Panel II - Model learning, learning representations, and model-augmented learning"
+      description: "Moderated Panel II: Model learning, learning representations, and model-augmented learning."
 
     - timePdt: "13:10 - 13:30"
       timePdtDetails: ", July 12"
@@ -182,7 +182,7 @@ params:
       moderator:
           photo: "/img/RussTedrake.png"
           name: "Russ Tedrake"
-      description: "Moderated panel III - New opportunities for integrating planning and learning"
+      description: "Moderated Panel III: New opportunities for integrating planning and learning."
 
     - timePdt: "18:30 - 18:50"
       timePdtDetails: ", July 12"
