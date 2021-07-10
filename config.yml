@@ -30,16 +30,10 @@ params:
     overview: "Overview"
     speakers: "Speakers"
     topics: "Discussions"
-    callforcontributions: "Submission"
+    callforcontributions: "Accepted Contributions"
     schedule: "Schedule"
     organizers: "Organizers"
     contact: "Contact"
-
-  # The Call To Action button at the header,
-  # If you don't want this, just remove the callToAction property.
-  CallToAction:
-    text: "Submit a Contribution"
-    link: "#callforcontributions"
 
   # Speakers
   Speakers:
@@ -103,6 +97,51 @@ params:
       company: "McGill University"
       href: "https://amyzhang.github.io/"
 
+  contributions:
+    - title: "Interaction Prediction and Monte-Carlo Tree Search for Robot Manipulation in Clutter"
+      authors: "Baichuan Huang, Shuai Han, Abdeslam Boularias, Jingjin Yu"
+      paperLink: "https://drive.google.com/file/d/1l4noPRzV9xy7e7Dj9H3YIZiWwe4pZjX5/view?usp=sharing"
+      videoLink: ""
+    - title: "Information-Theoretic Reward Shaping for Multimodal Object Attribute Learning"
+      authors: "Xiaohan Zhang, Jivko Sinapov, Shiqi Zhang"
+      paperLink: "https://drive.google.com/file/d/1vHCiOLChaIX41VdmVZ4_165Y5SceqzCo/view?usp=sharing"
+      videoLink: "https://drive.google.com/file/d/1sixV4tyybKRADJD88lwg3ZaZVDIXfJWL/view?usp=sharing"
+    - title: "Safe Exploration for Reinforcement Learning Using Unsupervised Action Planning"
+      authors: "Hao-Lun Hsu, Qiuhua Huang, Sehoon Ha"
+      paperLink: "https://drive.google.com/file/d/14S263ybbo0MwX8qV527wOJoY5dY8qMK7/view?usp=sharing"
+      videoLink: "https://drive.google.com/file/d/1yxVkbJGld930NRGFbmhNuv_RYnAVGh5X/view?usp=sharing"
+    - title: "Imitation Learning-Based Path Generation for the Complex Assembly of Deformable Objects"
+      authors: "Yitaek Kim, Christoffer Sloth"
+      paperLink: "https://drive.google.com/file/d/1jWsX2zU2C63J9JBJQ_DaIf6BMEuNqMYi/view?usp=sharing"
+      videoLink: "https://drive.google.com/file/d/1QN0qAjgRaqvKVffbShkcOYSN3t7DJl8v/view?usp=sharing"
+    - title: "Integrated Commonsense Reasoning and Interactive Learning in Robotics"
+      authors: "Mohan Sridharan"
+      paperLink: "https://drive.google.com/file/d/1KZdA4yuDcaxbUnVXf6-JKL_radYalOfU/view?usp=sharing"
+      videoLink: ""
+    - title: "Adversarially Regularized Policy Learning Guided by Trajectory Optimization"
+      authors: "Zhigen Zhao, Simiao Zuo, Tuo Zhao, Ye Zhao"
+      paperLink: "https://drive.google.com/file/d/1xUUqg3zv3seREk-JkhLWGFrDldzLoQaA/view?usp=sharing"
+      videoLink: ""
+    - title: "Gaussian Process Constraint Learning for Scalable Safe Motion Planning from Demonstrations"
+      authors: "Hao Wang, Glen Chou, Dmitry Berenson"
+      paperLink: "https://drive.google.com/file/d/1-x1eqApwwHrLonueL6m15GekbGMrl15-/view?usp=sharing"
+      videoLink: "https://drive.google.com/file/d/1lTeGU_scOZUOgzLJHfEocvq0M4MrHeTn/view?usp=sharing"
+    - title: "Policy-Guided Exploration for Efficient Sampling-Based Motion Planning in High Dimensions"
+      authors: "Liam Schramm, Abdeslam Boularias"
+      paperLink: ""
+      videoLink: ""
+    - title: "Towards Safe, Abstraction-based Online Learning and Synthesis for Unknown Systems"
+      authors: "John Jackson, Luca Laurenti, Eric W Frew, Morteza Lahijanian"
+      paperLink: "https://drive.google.com/file/d/1voQm1eREdtF6uUjh1vuK7apIDDMxNzam/view?usp=sharing"
+      videoLink: ""
+    - title: "Entropy Regularized Motion Planning via Stein Variational Inference"
+      authors: "Alexander Lambert, Byron Boots"
+      paperLink: ""
+      videoLink: ""
+    - title: "Receding horizon inverse reinforcement learning"
+      authors: "Yiqing Xu, Wei Gao, David Hsu"
+      paperLink: ""
+      videoLink: ""
 
   Schedules:
 
