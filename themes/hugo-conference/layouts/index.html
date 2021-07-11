@@ -44,7 +44,7 @@
       </div>
 
       <div class="wrapper">
-        {{ range $section := (slice "topics" "callforcontributions" "schedule") }}
+        {{ range $section := (slice "topics" "schedule" "callforcontributions") }}
           <section class="{{ $section }}" id="{{ $section }}">
             {{ partial $section $.Site.Params }}
           </section>
