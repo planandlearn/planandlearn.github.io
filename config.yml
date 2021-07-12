@@ -133,6 +133,11 @@ params:
       paperLink: "https://drive.google.com/file/d/1ltYApVQ7PmDYkDKad9rYotRLi3rv_vNM/view"
       videoLink: "https://drive.google.com/file/d/1IsEEQfKcQTjD0LEEQb6EgGcISV-LmvjK/view"
 
+    - title: "Policy-Guided Exploration for Efficient Sampling-Based Motion Planning in High Dimensions"
+      authors: "Liam Schramm, Abdeslam Boularias"
+      paperLink: ""
+      videoLink: "https://drive.google.com/file/d/1lnRK4wVkF4UUi3Iy1xsq7mt7FrFNokhS/view"
+
     - title: "Towards Safe, Abstraction-based Online Learning and Synthesis for Unknown Systems"
       authors: "John Jackson, Luca Laurenti, Eric W Frew, Morteza Lahijanian"
       paperLink: "https://drive.google.com/file/d/1XYq_O_7tLNYQmE7Gr2wx1N88P6OxLFii/view"
