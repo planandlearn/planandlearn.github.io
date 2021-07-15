@@ -47,7 +47,7 @@
             {{ end }}
 
           </td>
-          <td class="schedule-description">{{ $slot.description }}</td>
+          <td class="schedule-description">{{ $slot.description }}{{ with $slot.link }}<br/><br/><b>Video recording available <a href="{{ $slot.link }}" target="#">here</a>.<b/>{{ end }}</td>
         </tr>
       {{ end }}
     </tbody>
